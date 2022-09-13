@@ -1,0 +1,56 @@
+.whatsapp-button-generator {
+    position: fixed;
+    border-radius: 8%;
+    background-color: #31d831;
+    bottom: 20px;
+    right: 20px;
+    width: 90px;
+    height: 75px;
+    z-index: 110;
+}
+.whatsapp-button-content {
+    padding-top: 7px;
+    padding-left: 5px;
+    height: 70px;
+}
+#sticky-social {
+    top: 130px;
+    z-index: 999999;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    background: #fe9759;
+    border-radius: 5px 5px 0px 0px;
+    float: right;
+    display: block;
+    margin-right: 0px;
+    clear: left;
+    vertical-align: middle;
+    padding: 0px 0px 0px 0px;
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(
+-90deg
+);
+    transform-origin: bottom right;
+    position: fixed;
+    right: 0px;
+    border: none;
+}
+
+#sticky-social .btn:hover{
+  color: white;
+}
+
+#sticky-social .btn:active{
+  border: 0px solid transparent;
+}
+
+#sticky-social p {
+    color: black;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 600;
+    line-height: 2.7em;
+}

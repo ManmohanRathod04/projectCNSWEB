@@ -1,0 +1,249 @@
+.emailid-block a span.large-text {
+    font-family: poppins, sans-serif;
+}
+
+.pl-60 {
+    padding-left: 60px;
+}
+
+.new-headding:before {
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 4px;
+    left: -60px;
+    background-color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.new-headding:after {
+    position: absolute;
+    content: '';
+    left: -120px;
+    top: 100%;
+    width: 93px;
+    height: 93px;
+    z-index: 0;
+    background: url(https://tvishacdn.tvisha.com/img/dots_light_yellow.svg) no-repeat center / cover;
+}
+
+.aboutus-text {
+    background-color: #fafafa;
+}
+
+.line-height-1-25 {
+    line-height: 1.25;
+}
+
+.color-333 {
+    color: #333;
+}
+
+.font-size-64 {
+    font-size: 64px;
+}
+
+.aboutus-text:after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background: url(https://tvishacdn.tvisha.com/img/dots_light_yellow.svg) no-repeat center / cover;
+    left: 20px;
+    bottom: 20px;
+}
+
+.aboutus-section .app_new_services {
+    background-color: #fafafa;
+}
+
+.services_new_name {
+    top: 30px;
+}
+
+.services_new_name:before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 4px;
+    top: -10px;
+    background-color: #fdb345;
+    transition: width .35s ease-in-out;
+}
+
+.founded-year:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 40px;
+    background: url(https://tvishacdn.tvisha.com/img/new-index/bicycle.svg) no-repeat center / cover;
+}
+
+.award-year:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 40px;
+    background: url(https://tvishacdn.tvisha.com/img/new-index/bus.svg) no-repeat center / cover;
+}
+
+.font-size-36 {
+    font-size: 36px;
+}
+
+.company-vision {
+    background: #fff;
+    box-shadow: 0 5px 15px #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 30px;
+    height: 290px;
+    margin-top: 50px;
+}
+
+.company-vision figure {
+    width: 110px;
+    height: 110px;
+    background-color: #004d91;
+    line-height: 110px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.pmb-20 p {
+    margin-bottom: 20px;
+}
+
+.about-line {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.fonts-20 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-line.align_left:before {
+    right: auto;
+}
+
+.about-line:before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #004d91;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.why-choose-details .dv {
+    position: relative;
+    padding: 0 10px;
+}
+
+.why-choose-details .tx {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    min-height: 155px;
+}
+
+.why-choose-details .tx:before {
+    content: '';
+    position: absolute;
+    background-color: #d9d9d9;
+    bottom: 0;
+    width: 146px;
+    height: 1px;
+    left: 50%;
+    margin-left: -85px;
+    width: 170px;
+}
+
+.newSec_choose span.si_why_choose_logos {
+    display: block;
+    margin: 8px auto 0;
+}
+
+.why-softlabs-img {
+    width: 110px;
+    height: 70px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.why-softlabs-sprite.why-softlabs-icon1:before {
+    background-position: 0 -150px;
+}
+
+.why-softlabs-sprite:before {
+    background: url(https://www.softlabsgroup.com/Software-Companies-Mumbai-India-Images/industries-icon-sprite.svg) top no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+    width: 110px;
+    height: 70px;
+    content: '';
+}
+
+.why-choose-details .tx h6 {
+    color: #303030;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    font-weight: 600;
+    min-height: 38px;
+}
+
+.why-choose-details .tx:after {
+    content: '';
+    position: absolute;
+    background-color: #d9d9d9;
+    top: 8px;
+    right: -10px;
+    width: 1px;
+    height: 105px;
+}
+
+.why-softlabs-sprite.why-softlabs-icon2:before {
+    background-position: -110px -150px;
+}
+
+.why-softlabs-sprite.why-softlabs-icon3:before {
+    background-position: -220px -150px;
+}
+
+.why-softlabs-sprite.why-softlabs-icon4:before {
+    background-position: 0 -220px;
+}
+
+.why-softlabs-sprite.why-softlabs-icon5:before {
+    background-position: -110px -220px;
+}
+
+.why-softlabs-sprite.why-softlabs-icon6:before {
+    background-position: -220px -220px;
+}
+
+.why-softlabs-sprite.why-softlabs-icon7:before {
+    background-position: 0 -290px;
+}
+
+.why-softlabs-sprite.why-softlabs-icon8:before {
+    background-position: -110px -290px;
+}

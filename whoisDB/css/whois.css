@@ -1,0 +1,757 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-color:#FAA500 ;
+    --second-color:#001f3f;
+    --third-color:#FFFFFF;
+    --fourth-color:#000428;
+    --black-color:#000000;
+    --purple-color: #6A26Da;
+    --dark-gray:#26373FB3;
+    --another-black:#252629;
+    --text-style:'poppins',sans-serif;
+  }
+
+/* navbar */
+
+.navbar {
+    background: var(--fourth-color);
+    color: #fff;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    z-index: 2;
+}
+
+
+.navbar-brand img {
+    height: 60px;
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: 2px solid var(--third-color);
+    color: var(--third-color);
+}
+
+.navbar-toggler i {
+    color: var(--third-color);
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+.collapse ul li a {
+    color: var(--third-color);
+
+    font-family: var(--text-style);
+    font-size: 18px;
+    border: 0px solid red;
+}
+
+.collapse ul li a:hover {
+    color: var(--main-color);
+}
+
+.navbarbottom{
+    background: var(--second-color);
+   margin-top: 5rem;
+}
+
+.navbarbottom .navbar-nav {
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbarbottom .navbar-toggler {
+    margin-left: auto;
+}
+
+.navbarbottom .navbar-toggler2 {
+    border: 2px solid var(--second-color);
+ 
+}
+
+.navbarbottom .navbar-toggler2 i{
+    color: var(--second-color);
+ 
+}
+.navbarbottom .collapse ul {
+    width: 100%;
+}
+
+
+.navbarbottom .collapse ul li a {
+    color: var(--third-color);
+    font-family: var(--text-style);
+    font-size: 14px;
+    border: 0px solid red;
+    text-transform: uppercase;
+}
+
+.navbarbottom .collapse ul li a:hover {
+    color: var(--third-color);
+}
+/* navbar */
+
+/* mainpage */
+
+.main{
+    background: url('../img/ipad-header.jpg') no-repeat center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 133px;
+}
+
+.mainrow{
+    width: 90vw;
+    height: 70vh;
+}
+.mainbox1, .mainbox2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100%;
+}
+.mainbox1 h2{
+    font-size: 72px;
+    color: var(--third-color);
+
+}
+
+.mainbox1 span{
+    color: var(--second-color);
+}
+
+.mainbox1 p{
+    font-size: 25px;
+    color: var(--black-color);
+    font-weight: 500;
+    line-height:37px;
+
+}
+
+.mainbox2 img{
+ background-size: cover;
+height: 60vh;
+}
+
+/* mainpage */
+
+/* globalsampleData */
+
+.gloablData{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+   .gloablDatarow{
+    width: 90vw;
+}
+
+.gloablData1, .gloablData2{
+    padding: 30px;
+
+}
+.gloablData1 h3{
+    font-size: 60px;
+    font-family: var(--text-style);
+
+}
+
+.gloablData1 p{
+    color: var(--purple-color);
+    font-size: 20px;
+    
+}
+
+.gloablData2 p{
+color: var(--dark-gray);
+font-size: 21px;
+padding: 0 50px;
+}
+
+.gloablDatarow2{
+    width: 90%;
+    height: 40vh;
+}
+
+.globalcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.globalcard .icon{
+
+    width: 66px;
+    height: 66px;
+    border-radius: 50px;
+}
+
+.globalcard .icon img{
+    padding: 20px 20px;
+}
+
+.globalcard h5{
+  font-size: 21px;
+  color: var(--another-black);
+}
+
+.globalcard p{
+    font-size: 21px;
+    color: var(--dark-gray);
+}
+
+.globalcard a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 3%;
+   height: 18%;
+   width: 40%;
+   margin-top: -20px;
+   background-color: var(--main-color);
+   color: var(--third-color);
+   transition: .5s ease-in-out;
+}
+
+.globalcard a:hover{
+    background-color: var(--second-color);
+    color: var(--third-color);
+}
+/* globalsampleData */
+
+/* 4Milliondomains */
+
+.Milliondomains{
+    background-color: var(--second-color);
+    height: 150vh;
+}
+.Milliondomains img{
+    width:  25%;
+    height: 30%;
+    position: relative;
+    left: 75%;
+    top: -20.2rem;
+}
+.Milliondomainsrow{
+width: 100%;
+  padding:0 10px;
+
+}
+
+.Milliondomainsbox{
+    margin-left: 5%;
+    padding-top: 100px;
+    
+}
+.Milliondomainsbox h2{
+font-size: 60px;
+font-family: var(--text-style);
+color: var(--third-color);
+}
+
+.Milliondomainsbox p{
+    font-size: 21px;
+    font-family: var(--text-style);
+    color: var(--third-color);
+    padding-top: 20px;
+}
+
+.Milliondomainsrow2{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    left: 5%;
+    top: -22%;
+    height: auto;
+}
+
+
+.Milliondomainsbox2 h2{
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: -2px;
+    color: #FFFFFF4D;
+    margin-bottom: 52px;
+}
+
+.Milliondomainsbox2 h5{
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 1.619047;
+    margin-bottom: 25px;
+    color: var(--third-color);
+}
+
+.Milliondomainsbox2 p{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.66666;
+
+}
+/* 4Milliondomains */
+
+/* Plan-Name */
+
+.Plan-Name{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Plan-Name img{
+    width: 30%;
+    height: 100%;
+}
+
+.Plan-Name .gray-dots{
+    height: 60%;
+    width: 20%;
+}
+
+.Plan-Namerow{
+    position: absolute;
+    left: 10px;
+    width: 99vw;
+    height: 70%;
+
+}
+
+.Plan-Namebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Plan-Namerow2{
+    width: 75%;
+    height: 50%;
+    background-color: var(--third-color);
+    box-shadow: 0 24px 94px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+
+}
+
+.Plan-NameCard{
+    border-bottom: 3px dotted rgba(37, 55, 63, 0.15);
+    padding-top:40px;
+    margin: 10px;
+}
+
+.Plan-NameCard h4{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: var(--text-style);
+    color: var(--another-black);
+
+}
+
+.Plan-NameCard p{
+      font-size: 18px;
+    font-family: var(--text-style);
+    color: var(--dark-gray);
+}
+
+.Plan-Namerow2 a{
+    background-color: var(--main-color);
+    color: var(--third-color);
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 7px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 120px;
+    transition: .5s ease-in-out;
+}
+
+.Plan-Namerow2 a:hover{
+    color: var(--third-color);
+    background-color: #001f3f;
+}
+/* Plan-Name */
+
+
+/* testimonial */
+
+.testimonial{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.testimonialrow{
+    width: 99vw;
+    height: 60%;
+    padding: 0 20px;
+
+}
+
+.testimonialbox .star ul i{
+  color: var(--main-color);
+  margin: 0;
+}
+
+.testimonialbox p{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 34px;
+    margin-bottom: 50px;
+    color: var(--dark-gray);
+}
+
+.testimonialbox .profile{
+ display: flex;
+ gap: 20px;
+
+}
+
+.testimonialbox .profile .content {
+    height: 100px;
+    padding-top: 17px;
+}
+
+.testimonialbox .profile img{
+height: 100px;
+}
+
+.testimonialbox .profile h4{
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: normal; 
+    line-height: 1.619;
+    margin-bottom: 0;
+    color: var(--another-black);
+}
+
+.testimonialbox .profile p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.75;
+    color: var(--dark-gray);
+}
+/* testimonial */
+
+ /* media query  */
+
+
+ @media screen and (max-width:1160px){
+
+    /* mainpage */
+
+    .main{
+        height: auto;
+        width: auto;
+        margin-top: 154px;
+    }
+
+    .mainrow{
+        height: auto;
+    }
+    .mainbox2{
+        height: auto;
+    }
+    /* mainpage */
+
+    /* globalsampleData */
+
+    .gloablDatarow2{
+        height: auto;
+        /* width: auto; */
+    }
+    .gloablData{
+        height: auto;
+        width: auto;
+    }
+
+    .globalcard .icon{
+       width:  66px;
+       height: 66px;
+    }
+    .globalcard a{
+        font-size: 15px;
+        height: 19%;
+        padding: 10px 5px;
+   width: 43%;
+    }
+
+    .globalcard h5{
+        margin-top: 30px;
+    }
+
+    .globalcard p{
+        margin-bottom: 30px;
+    }
+    /* globalsampleData */
+  
+    /* 4Milliondomains */
+
+    .Milliondomains{
+        height: auto;
+
+    }
+
+    .Milliondomains img{
+        position: relative;
+        top: -29rem;
+    }
+
+    .Milliondomains .Milliondomainsrow2{
+        margin-top: -200px;
+    }
+    /* 4Milliondomains */
+
+    /* Plan-Name */
+
+    .Plan-Namerow2{
+        width: 90%;
+        height: 45vh;
+    }
+
+    /* Plan-Name */
+
+ }
+
+ @media screen and (max-width:990px){
+     .collapse-bottom{
+        position: absolute;
+        top: 13.4rem ;
+        right: 0px;
+        background-color: var(--second-color);
+        z-index: 9999;
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .navbarbottom{
+        background: none;
+        box-shadow: none;
+    }
+
+    .navbarbottom .navbar-toggler2 {
+        display: none;
+    }
+
+      /* mainpage */
+
+      .main{
+        height: auto;
+        width: auto;
+        margin-top: 88px;
+    }
+      /* mainpage */
+
+ }
+
+ @media screen and (max-width:767px){
+
+      /* mainpage */
+
+    .mainbox1{
+        height: auto;
+    }
+      /* mainpage */
+
+      /* globalsampleData */
+
+    .gloablDatarow2{
+        height: auto;
+        /* width: auto; */
+    }
+    .gloablData{
+        height: auto;
+        width: auto;
+    }
+    .globalcard{
+        margin-bottom: 40px;
+    }
+    .globalcard .icon{
+        width:  66px;
+        height: 66px;
+    }
+    .globalcard a{
+        font-size: 18px;
+        height: 23%;
+        /* padding: 5px 5px; */
+        width: 30%;
+    }
+
+  
+    /* globalsampleData */
+
+
+    /* 4Milliondomains */
+
+    .Milliondomains{
+        height: auto;
+    }
+
+    .Milliondomains img{
+        position: relative;
+        top: -30rem;
+    }
+
+    .Milliondomainsrow {
+        padding-top: 5rem;
+    }
+
+    .Milliondomainsrow2{
+        padding-top: 5rem;
+        
+    }
+    /* 4Milliondomains */
+
+    /* Plan-Name  */
+
+    .Plan-Name {
+        width: auto;
+        height: 100vh;
+    }
+    .Plan-Namerow , .Plan-Namerow2{
+        height: auto;
+    }
+
+   .Plan-Namebox .Plan-Namerow2{
+        width: 80%;
+    }
+
+    .Plan-Namerow2 a{
+        margin-bottom: 20px;
+    }
+    /* Plan-Name  */
+
+ }
+ 
+
+ @media screen and (max-width:667px){
+
+    /* navbar bottom  */
+    .navbarbottom .collapse ul li a {
+        padding-left: 24px;
+     }
+     /* navbar bottom  */
+       /* mainpage */
+
+    .mainbox1{
+        height: auto;
+    }
+      /* mainpage */
+
+      /* globalsampleData */
+
+    .gloablDatarow2{
+        height: auto;
+        /* width: auto; */
+    }
+    .gloablData{
+        height: auto;
+        width: auto;
+    }
+    .globalcard{
+        margin-bottom: 40px;
+    }
+    .globalcard .icon{
+        width:  66px;
+        height: 66px;
+    }
+    .globalcard a{
+        font-size: 18px;
+        height: 23%;
+        /* padding: 5px 5px; */
+        width: 40%;
+    }
+
+  
+    /* globalsampleData */
+
+
+    /* 4Milliondomains */
+
+    .Milliondomains{
+        height: auto;
+    }
+
+    .Milliondomains img{
+        position: relative;
+        top: -34rem;
+    }
+
+  
+    /* 4Milliondomains */
+
+    /* Plan-Name  */
+
+    .Plan-Name {
+        width: auto;
+        height: 100vh;
+    }
+    .Plan-Namerow , .Plan-Namerow2{
+        height: auto;
+    }
+
+   .Plan-Namebox .Plan-Namerow2{
+        width: 80%;
+    }
+
+    .Plan-Namerow2 a{
+        margin-bottom: 20px;
+    }
+    /* Plan-Name  */
+
+    .testimonialbox{
+        margin-bottom: 50px;
+    }
+ }
+
+ @media screen and (max-width:410px){
+
+    /* navbar bottom  */
+    .navbarbottom .collapse ul li a {
+       padding-left: 24px;
+    }
+    /* navbar bottom  */
+
+      /* 4Milliondomains */
+
+      .Milliondomainsrow{
+          margin-bottom: 150px;
+      }
+
+      .Milliondomainsbox{
+          padding-top:0 ;
+
+      }
+
+    .Milliondomains{
+        height: auto;
+    }
+
+    .Milliondomains img{
+      display: none;
+    }
+
+  
+    /* 4Milliondomains */
+ }
+ /* media query  */

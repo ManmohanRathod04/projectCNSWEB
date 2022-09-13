@@ -1,0 +1,1613 @@
+@media screen and (min-width:993px) and (max-width:1024px) {
+    .banner-top .container-as {
+        width       : 100%;
+        margin-left : 0;
+        margin-right: 0
+    }
+
+    .slick-next:before {
+        margin-right: -6px
+    }
+
+    .premium-section-slider {
+        padding       : 0;
+        padding-bottom: 22px
+    }
+
+    .marr80 {
+        margin-right: 0
+    }
+
+    .addressbox {
+        height: 100%
+    }
+
+    .banner-top .container {
+        margin-left: 0
+    }
+
+    .panelBar {
+        display: none
+    }
+
+    .product_offer_col h4 {
+        font-size: 25px
+    }
+
+    .product_offer_col {
+        height       : 230px;
+        margin-bottom: 30px
+    }
+
+    .banner-top {
+        min-height: 91vh
+    }
+
+    .success-screens {
+        right: 20%
+    }
+
+    .slick-next {
+        right: -4px
+    }
+
+    .rescenetr {
+        text-align: center !important
+    }
+
+    #logo img {
+        width: 100%
+    }
+
+    .slick-prev {
+        left   : 7px;
+        z-index: 1
+    }
+
+    .main-study-section .col-md-6 {
+        width: 100%
+    }
+
+    .resmart30 {
+        margin-top: 0
+    }
+
+    .heading-content a {
+        font-size       : 44px;
+        line-height     : 52px;
+        font-size-adjust: .4
+    }
+
+    .pad15 {
+        padding-left: 60px
+    }
+
+    .main1-box {
+        height : 125px;
+        display: block
+    }
+
+    .work-name {
+        font-size: 25px
+    }
+
+    .work-name p {
+        font-size: 25px
+    }
+
+    .sup-sript {
+        font-size: 30px
+    }
+
+    .line-height1 {
+        line-height: 56px !important
+    }
+
+    .footer-bottom-text p {
+        margin-top   : 9px;
+        margin-bottom: 24px
+    }
+
+    .marginl30 {
+        margin-left: 30px
+    }
+
+    .work-icon {
+        text-align: -webkit-center;
+        display   : grid
+    }
+
+    .padd-form {
+        padding: 28px 15px 0
+    }
+
+    .TopBnnerHStyle,
+    .banner-box h1 {
+        font-size: 40px
+    }
+
+    .aavc .owl-carousel .owl-item img {
+        max-width: 100%;
+        height   : 65px;
+        width    : auto
+    }
+
+    .red-new-btn {
+        padding: 0 22px
+    }
+
+    .aagf .owl-carousel .owl-item img {
+        width: 100%
+    }
+
+    .stickyheader .nav-grid {
+        top: -50px
+    }
+
+    ul.mainclick {
+        padding: 30px
+    }
+
+    .main-links .hovermenu {
+        position: relative;
+        top     : 5px;
+        left    : -18px
+    }
+
+    .nav-grid.is-active span {
+        margin: 0
+    }
+
+    .maniProtFolio .container {
+        padding: 0 24px;
+        width  : 100%
+    }
+
+    .main-testimonial-link {
+        padding-top: 30px
+    }
+
+    .display-inline-mob {
+        padding-left: 15px
+    }
+
+    .shubha ul li a {
+        margin-left: 18px
+    }
+
+    .main-testimonial-link ul {
+        padding-left: 0
+    }
+
+    .inquiry-btn {
+        display: none
+    }
+
+    .associatedgvt-img img {
+        position: relative;
+        top     : 51px
+    }
+
+    .associatedgvtmain {
+        height: 320px
+    }
+
+    .associatedgvt h3 {
+        font-size: 39px
+    }
+
+    .mgb0 {
+        margin-bottom: 0 !important
+    }
+
+    .TopBnnerHStyle,
+    .banner-box h1 {
+        font-size       : 61px;
+        line-height     : 90px;
+        font-size-adjust: .4
+    }
+
+    .h2_content {
+        font-size  : 41px;
+        line-height: 62px
+    }
+
+    .banner-box p {
+        font-size       : 37px;
+        line-height     : 44px;
+        font-size-adjust: .3
+    }
+
+    .headerestimate {
+        margin-top : 40px;
+        line-height: 59px
+    }
+
+    .bulebtn-text a {
+        font-size: 28px !important
+    }
+
+    .blue-new-btn {
+        border-radius: 137px;
+        padding      : 9px 38px
+    }
+
+    .margint40 {
+        margin-top: 40px !important
+    }
+
+    .slideheading {
+        font-size  : 24px;
+        line-height: 31px
+    }
+
+    .clientSecLogo .heading-block p {
+        font-size  : 22px;
+        line-height: 29px
+    }
+
+    .associatedgvt-img {
+        text-align: center
+    }
+
+    .associatedgvt-img .img1 {
+        width: 260px
+    }
+
+    .associatedgvt-img .img2 {
+        width: 255px
+    }
+
+    .associatedgvtmain {
+        margin-bottom: 60px
+    }
+
+    .clientSpeakSection .container {
+        width  : 100%;
+        padding: 0 24px
+    }
+
+    .main1-box .text-year {
+        padding-left: 0
+    }
+
+    .displaynone {
+        display: none
+    }
+
+    .main-links ul.mainclick li a {
+        font-size  : 30px;
+        line-height: 50px
+    }
+
+    .menuHeadTitle {
+        font-size: 45px
+    }
+
+    .text-color {
+        font-size  : 36px;
+        line-height: 38px
+    }
+
+    .submenu {
+        visibility: hidden
+    }
+
+    .main1-box .text-year h3 {
+        font-size  : 28px;
+        line-height: 27px
+    }
+
+    .servicesprovideblock .title-bar {
+        font-size: 30px
+    }
+
+    .inner-item-list {
+        height     : 100%;
+        border-left: 0
+    }
+
+    .product_offer h3 {
+        font-size: 35px
+    }
+
+    .idology-section .title-bar {
+        font-size  : 29px;
+        line-height: 35px
+    }
+
+    .idology-section p {
+        line-height: 42px;
+        font-size  : 30px
+    }
+
+    .servicesprovideblock .title-bar .section-description {
+        font-size  : 30px;
+        line-height: 40px
+    }
+
+    .study-title {
+        font-size  : 24px;
+        line-height: 36px
+    }
+
+    .main1-box .text-year p,
+    .btn-idology,
+    .red-new-btn,
+    .comman-btn {
+        font-size: 25px
+    }
+
+    .flip-box-front h2 {
+        font-size: 29px
+    }
+
+    .success-point span.font30,
+    .request-btn,
+    .blogText {
+        font-size: 17px
+    }
+
+    .index_top_header {
+        margin: 0
+    }
+
+    .common-heading .title-bar,
+    .section-subtitle,
+    .flip-box-front p,
+    .res h3,
+    .footingsec .title-bars,
+    .proud-main-heading .title-bar,
+    .email-section .email-info .addr-two,
+    .servicesprovideblock .title-bar {
+        font-size: 30px
+    }
+
+    .btn-section,
+    .footingsec-block-text,
+    .descriptionD .MobileInfo p,
+    .commanHeadingS .title-bar,
+    .form-group .upload-block p,
+    .blue-new-btn,
+    .footer-bottom-text p,
+    .footer-bottom-text a,
+    .checkbox label {
+        font-size: 24px
+    }
+
+    .main-study-section .study-section-1 .study-section-text span:nth-child(3),
+    .online-registration {
+        font-size: 28px
+    }
+
+    .res p {
+        font-size  : 25px;
+        line-height: 30px
+    }
+
+    .block-text-box h3 {
+        font-size  : 25px;
+        line-height: 32px
+    }
+
+    .email-section .email-info .addr-one,
+    .email-section .email-info .addr-two p {
+        font-size: 27px
+    }
+
+    .effect-16~label,
+    .form-group.textarea label {
+        font-size: 22px
+    }
+
+    .Copyright p,
+    .ratingContent {
+        font-size: 31px
+    }
+
+    .Copyright p {
+        line-height: 50px
+    }
+
+    ul.socail-list li a {
+        width      : 60px;
+        height     : 60px;
+        line-height: 60px
+    }
+
+    .rate .checked {
+        font-size: 26px;
+        padding  : 5px
+    }
+
+    ul.footer-list li a {
+        font-size  : 26px;
+        line-height: 45px
+    }
+
+    .footer-title {
+        font-size: 38px;
+        margin   : 30px 0
+    }
+
+    .form-group .checkbox {
+        float     : left;
+        margin-top: 46px
+    }
+
+    .inner-item-list {
+        width: 100%
+    }
+
+    p.flight.text-justify {
+        font-size: 20px
+    }
+
+    .ratingContent {
+        font-size: 28px
+    }
+
+    .addresscontent a,
+    .addresscontent h4,
+    .addresscontent p {
+        font-size: 25px
+    }
+
+    .resfont30 {
+        font-size : 22px;
+        margin-top: 30px
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .banner-top .container-as {
+        width       : 100%;
+        margin-left : 0;
+        margin-right: 0
+    }
+
+    .slick-next:before {
+        margin-right: -6px
+    }
+
+    .premium-section-slider {
+        padding       : 0;
+        padding-bottom: 22px
+    }
+
+    .marr80 {
+        margin-right: 0
+    }
+
+    .addressbox {
+        height: 100%
+    }
+
+    .banner-top .container {
+        margin-left: 0
+    }
+
+    .panelBar {
+        display: none
+    }
+
+    .product_offer_col h4 {
+        font-size: 25px
+    }
+
+    .product_offer_col {
+        height: 190px
+    }
+
+    .banner-top {
+        min-height: 91vh
+    }
+
+    .slick-next {
+        right: -4px
+    }
+
+    .rescenetr {
+        text-align: center !important
+    }
+
+    #logo img {
+        width: 100%
+    }
+
+    .slick-prev {
+        left   : 7px;
+        z-index: 1
+    }
+
+    .main-study-section .col-md-6 {
+        width: 100%
+    }
+
+    .resmart30 {
+        margin-top: 30px
+    }
+
+    .heading-content a {
+        font-size       : 44px;
+        line-height     : 52px;
+        font-size-adjust: .4
+    }
+
+    .pad15 {
+        padding-left: 60px
+    }
+
+    .main1-box {
+        height : 125px;
+        display: block
+    }
+
+    .work-name {
+        font-size: 25px
+    }
+
+    .work-name p {
+        font-size: 25px
+    }
+
+    .sup-sript {
+        font-size: 30px
+    }
+
+    .line-height1 {
+        line-height: 56px !important
+    }
+
+    .footer-bottom-text p {
+        margin-top   : 9px;
+        margin-bottom: 24px
+    }
+
+    .marginl30 {
+        margin-left: 30px
+    }
+
+    .work-icon {
+        text-align: -webkit-center;
+        display   : grid
+    }
+
+    .padd-form {
+        padding: 28px 15px 0
+    }
+
+    .TopBnnerHStyle,
+    .banner-box h1 {
+        font-size: 40px
+    }
+
+    .aavc .owl-carousel .owl-item img {
+        max-width: 100%;
+        height   : 65px;
+        width    : auto
+    }
+
+    .red-new-btn {
+        padding: 0 22px
+    }
+
+    .aagf .owl-carousel .owl-item img {
+        width: 100%
+    }
+
+    ul.mainclick {
+        padding: 30px
+    }
+
+    .main-links .hovermenu {
+        position: relative;
+        top     : 5px;
+        left    : -18px
+    }
+
+    .nav-grid.is-active span {
+        margin: 0
+    }
+
+    .maniProtFolio .container {
+        padding: 0 24px;
+        width  : 100%
+    }
+
+    .main-testimonial-link {
+        padding-top: 30px
+    }
+
+    .display-inline-mob {
+        padding-left: 15px
+    }
+
+    .shubha ul li a {
+        margin-left: 18px
+    }
+
+    .main-testimonial-link ul {
+        padding-left: 0
+    }
+
+    .inquiry-btn {
+        display: none
+    }
+
+    .associatedgvt-img img {
+        position: relative;
+        top     : 51px
+    }
+
+    .associatedgvtmain {
+        height: 320px
+    }
+
+    .associatedgvt h3 {
+        font-size: 39px
+    }
+
+    .mgb0 {
+        margin-bottom: 0 !important
+    }
+
+    .TopBnnerHStyle,
+    .banner-box h1 {
+        font-size       : 61px;
+        line-height     : 90px;
+        font-size-adjust: .4
+    }
+
+    .h2_content {
+        font-size  : 41px;
+        line-height: 62px
+    }
+
+    .banner-box p {
+        font-size       : 37px;
+        line-height     : 44px;
+        font-size-adjust: .3
+    }
+
+    .headerestimate {
+        margin-top : 40px;
+        line-height: 59px
+    }
+
+    .bulebtn-text a {
+        font-size: 28px !important
+    }
+
+    .blue-new-btn {
+        border-radius: 137px;
+        padding      : 9px 38px
+    }
+
+    .margint40 {
+        margin-top: 40px !important
+    }
+
+    .slideheading {
+        font-size  : 24px;
+        line-height: 31px
+    }
+
+    .clientSecLogo .heading-block p {
+        font-size  : 22px;
+        line-height: 29px
+    }
+
+    .associatedgvt-img {
+        text-align: center
+    }
+
+    .associatedgvt-img .img1 {
+        width: 260px
+    }
+
+    .associatedgvt-img .img2 {
+        width: 255px
+    }
+
+    .associatedgvtmain {
+        margin-bottom: 60px
+    }
+
+    .clientSpeakSection .container {
+        width  : 100%;
+        padding: 0 24px
+    }
+
+    .main1-box .text-year {
+        padding-left: 0
+    }
+
+    .displaynone {
+        display: none
+    }
+
+    .main-links ul.mainclick li a {
+        font-size  : 30px;
+        line-height: 50px
+    }
+
+    .menuHeadTitle {
+        font-size: 45px
+    }
+
+    .text-color {
+        font-size  : 36px;
+        line-height: 38px
+    }
+
+    .submenu {
+        visibility: hidden
+    }
+
+    .main1-box .text-year h3 {
+        font-size  : 28px;
+        line-height: 27px
+    }
+
+    .servicesprovideblock .title-bar {
+        font-size: 30px
+    }
+
+    .inner-item-list {
+        height     : 100%;
+        border-left: 0
+    }
+
+    .product_offer h3 {
+        font-size: 35px
+    }
+
+    .idology-section .title-bar {
+        font-size  : 29px;
+        line-height: 35px
+    }
+
+    .idology-section p {
+        line-height: 42px;
+        font-size  : 30px
+    }
+
+    .servicesprovideblock .title-bar .section-description {
+        font-size  : 30px;
+        line-height: 40px
+    }
+
+    .study-title {
+        font-size  : 24px;
+        line-height: 36px
+    }
+
+    .main1-box .text-year p,
+    .btn-idology,
+    .red-new-btn,
+    .comman-btn {
+        font-size: 25px
+    }
+
+    .flip-box-front h2 {
+        font-size: 29px
+    }
+
+    .success-point span.font30,
+    .request-btn,
+    .blogText {
+        font-size: 26px
+    }
+
+    .index_top_header {
+        margin: 0
+    }
+
+    .common-heading .title-bar,
+    .section-subtitle,
+    .flip-box-front p,
+    .res h3,
+    .footingsec .title-bars,
+    .proud-main-heading .title-bar,
+    .email-section .email-info .addr-two,
+    .servicesprovideblock .title-bar {
+        font-size: 30px
+    }
+
+    .btn-section,
+    .footingsec-block-text,
+    .descriptionD .MobileInfo p,
+    .commanHeadingS .title-bar,
+    .form-group .upload-block p,
+    .blue-new-btn,
+    .footer-bottom-text p,
+    .footer-bottom-text a,
+    .checkbox label {
+        font-size: 24px
+    }
+
+    .main-study-section .study-section-1 .study-section-text span:nth-child(3),
+    .online-registration {
+        font-size: 28px
+    }
+
+    .res p {
+        font-size  : 25px;
+        line-height: 30px
+    }
+
+    .block-text-box h3 {
+        font-size  : 25px;
+        line-height: 32px
+    }
+
+    .email-section .email-info .addr-one,
+    .email-section .email-info .addr-two p {
+        font-size: 27px
+    }
+
+    .effect-16~label,
+    .form-group.textarea label {
+        font-size: 22px
+    }
+
+    .Copyright p,
+    .ratingContent {
+        font-size: 31px
+    }
+
+    .Copyright p {
+        line-height: 50px
+    }
+
+    ul.socail-list li a {
+        width      : 60px;
+        height     : 60px;
+        line-height: 60px
+    }
+
+    .rate .checked {
+        font-size: 26px;
+        padding  : 5px
+    }
+
+    ul.footer-list li a {
+        font-size  : 32px;
+        line-height: 55px
+    }
+
+    .footer-title {
+        font-size: 38px;
+        margin   : 30px 0
+    }
+
+    .form-group .checkbox {
+        float     : left;
+        margin-top: 46px
+    }
+
+    .inner-item-list {
+        width: 100%
+    }
+
+    p.flight.text-justify {
+        font-size: 20px
+    }
+
+    .ratingContent {
+        font-size: 28px
+    }
+
+    .addresscontent a,
+    .addresscontent h4,
+    .addresscontent p {
+        font-size: 25px
+    }
+
+    .resfont30 {
+        font-size : 22px;
+        margin-top: 30px
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .main1-box .exp-img {
+        float     : none;
+        text-align: center
+    }
+
+    .resmarb45 {
+        margin-bottom: 45px
+    }
+
+    ul.apps-one {
+        border-bottom: 0
+    }
+
+    .addressbox {
+        height: 100%
+    }
+
+    .mart30 {
+        margin-top: 0 !important
+    }
+
+    .Copyright p {
+        line-height: 24px;
+        font-size  : 14px
+    }
+
+    .servicescontain {
+        height: 320px
+    }
+
+    .servicesfaceside p {
+        font-size: 17px
+    }
+
+    .categorycontent p {
+        font-size: 17px
+    }
+
+    .categorysec .title-bars {
+        font-size: 18px
+    }
+
+    .main1-box .text-year {
+        float      : none;
+        text-align : center;
+        padding-top: 10px;
+        margin-top : 0
+    }
+
+    .main1-box .text-year p {
+        text-align: center
+    }
+
+    .main1-box {
+        height: 150px
+    }
+
+    .exp-img img {
+        padding-left: 10px
+    }
+
+    .banner-top .container {
+        width: 367px
+    }
+
+    .TopBnnerHStyle {
+        font-size: 20px
+    }
+
+    .product_offer_col {
+        margin: 15px
+    }
+
+    .categorysec .title-bars {
+        font-size: 19px
+    }
+
+    .categoryimg {
+        left     : 50%;
+        transform: translate(-50%, 0)
+    }
+
+    ul.footer-list li a {
+        font-size  : 16px;
+        line-height: 30px
+    }
+
+    .banner-box h1 {
+        font-size: 20px
+    }
+
+    .clientSecLogo .heading-block {
+        padding-right: 0
+    }
+
+    .aavc .owl-carousel .owl-item img {
+        width: 35%
+    }
+
+    .aagf .owl-carousel .owl-item img {
+        width: 100%
+    }
+
+    a.btn-colors {
+        display: -webkit-box
+    }
+
+    .main1-box .text-year p {
+        font-size: 17px
+    }
+
+    .inner-item-list {
+        width       : 50%;
+        border-style: none
+    }
+
+    .fgh {
+        width: 100%
+    }
+
+    .work-name {
+        font-size: 14px
+    }
+
+    .pad15 {
+        padding: 15px 0 15px 15px
+    }
+
+    .marginl30 {
+        margin-left: 30px
+    }
+
+    .email-section .email-info .addr-two {
+        font-size: 16px
+    }
+
+    .footer-bottom-text p {
+        margin-top   : 9px;
+        margin-bottom: 24px
+    }
+
+    .success-story-item .table-cell {
+        display: -webkit-inline-box
+    }
+
+    .hover-Me:hover .mainOverSection {
+        height       : 100%;
+        margin-bottom: 0
+    }
+
+    .mainOverSection a img {
+        margin-top: -6px
+    }
+
+    .table-cell {
+        width: 100%
+    }
+
+    .red-new-btn {
+        display      : -webkit-box;
+        margin-bottom: 10px
+    }
+
+    .success-story-item .whitetext {
+        font-size: 30px
+    }
+
+    .banner-box {
+        margin: 0
+    }
+
+    .main-links ul.mainclick li a {
+        font-size: 15px
+    }
+
+    .displaynone {
+        display: none
+    }
+
+    .slick-next {
+        right: 18px
+    }
+
+    .nav-grid {
+        position: absolute;
+        right   : 0;
+    }
+
+    .mgb0 {
+        margin-bottom: 0 !important
+    }
+
+    .paddingb30 {
+        padding-bottom: 30px
+    }
+
+    .min0 {
+        min-height: 0
+    }
+
+    .success-screens {
+        display   : none;
+        visibility: hidden
+    }
+
+    header {
+        top: 0
+    }
+
+    .TopBnnerHStyle {
+        line-height: 50px
+    }
+
+    .banner-box h1 {
+        line-height: 50px
+    }
+
+    .h2_content {
+        font-size: 20px
+    }
+
+    .heading-text {
+        font-size: 23px
+    }
+
+    .text-color {
+        font-size  : 19px;
+        text-align : justify;
+        line-height: 24px
+    }
+
+    .idology-section h2 {
+        font-size: 24px
+    }
+
+    .idology-section .title-bar {
+        font-size: 18px
+    }
+
+    .idology-section p {
+        font-size: 17px
+    }
+
+    .btn-idology {
+        font-size: 16px
+    }
+
+    .hard-work-heading {
+        font-size    : 23px;
+        margin-bottom: 20px
+    }
+
+    .icon-block {
+        top: -12px
+    }
+
+    .slick-prev {
+        left   : 16px;
+        z-index: 1
+    }
+
+    .top-15px {
+        top: 0 !important
+    }
+
+    .clints-reviews {
+        height: auto !important
+    }
+
+    .MobileBlock {
+        height: 450px;
+        margin: 0
+    }
+
+    .dcont {
+        display: contents
+    }
+
+    .BtnClient li {
+        padding: 6px 1px 5px 2px
+    }
+
+    .work-icon {
+        text-align: center
+    }
+
+    .success-story-item .blacktext {
+        font-size  : 30px;
+        line-height: 0
+    }
+
+    .success-point span.font30 {
+        font-size: 16px !important
+    }
+
+    .section-subtitle {
+        font-size: 19px
+    }
+
+    .common-heading h2 {
+        font-size: 20px
+    }
+
+    .common-heading .title-bar,
+    .study-title,
+    .section-description,
+    .commanHeadingS .title-bar,
+    .commanHeadingS p {
+        font-size: 14px
+    }
+
+    .main-study-section .study-section-1 p {
+        font-size: 30px
+    }
+
+    .main-study-section .study-section-1 .study-section-text span:nth-child(2),
+    .main-study-section .study-section-1 .study-section-text span:nth-child(3) {
+        font-size: 14px
+    }
+
+    .btn-section {
+        padding: 13px 30px
+    }
+
+    .request-btn {
+        padding: 16px 24px 13px
+    }
+
+    .commanHeadingS h2 {
+        font-size: 22px
+    }
+
+    .padd-form {
+        padding: 28px 15px 0
+    }
+
+    .pad15 a {
+        text-align: center
+    }
+
+    .career-text h3 {
+        font-size  : 14px;
+        line-height: 16px;
+        padding-top: 10px
+    }
+
+    .success-story-item a {
+        text-align: -webkit-center
+    }
+
+    .bulebtn-text a {
+        font-size: 11px !important
+    }
+
+    .owlmiddle {
+        position: relative
+    }
+
+    .chatImgs {
+        display   : none;
+        visibility: hidden
+    }
+
+    .stickyheader .nav-grid {
+        top: -60px
+    }
+
+    ul.mainclick {
+        padding: 22px
+    }
+
+    .main-links .hovermenu {
+        position: relative;
+        top     : 5px;
+        left    : -18px
+    }
+
+    .nav-grid.is-active span {
+        margin: 0
+    }
+
+    .maniProtFolio .container {
+        padding: 0 15px;
+        width  : 100%
+    }
+
+    .inquiry-btn {
+        display   : none;
+        visibility: hidden
+    }
+
+    .footer-bottom-text p {
+        margin-bottom: 3px !important
+    }
+
+    .associatedgvt-img img {
+        position: relative;
+        top     : 0
+    }
+
+    .associatedgvtmain {
+        height: 100%
+    }
+
+    .associatedgvt h3 {
+        font-size: 39px
+    }
+
+    .TopBnnerHStyle,
+    .banner-box h1 {
+        font-size: 30px !important
+    }
+
+    .banner-box p {
+        font-size  : 17px;
+        line-height: 30px
+    }
+
+    .banner-box a {
+        margin-top: 0
+    }
+
+    .heading-content a {
+        font-size: 22px
+    }
+
+    .headerestimate {
+        margin-top : 40px;
+        line-height: 23px
+    }
+
+    .bulebtn-text a {
+        font-size  : 15px !important;
+        line-height: 23px
+    }
+
+    .mart30 {
+        margin-top: 0
+    }
+
+    div.height-144 {
+        height: 100px
+    }
+
+    .blue-new-btn {
+        border-radius: 137px;
+        padding      : 9px 38px
+    }
+
+    .margint40 {
+        margin-top: 20px !important
+    }
+
+    .associatedgvt-img {
+        text-align: center
+    }
+
+    .associatedgvt-img .img1 {
+        width: 260px
+    }
+
+    .associatedgvt-img .img2 {
+        width: 255px
+    }
+
+    .associatedgvtmain {
+        margin-bottom: 30px
+    }
+
+    body.font-lato {
+        display   : none;
+        visibility: hidden
+    }
+
+    .panelBar {
+        display   : none;
+        visibility: hidden
+    }
+
+    .clientSecLogo .heading-block p {
+        margin-left: 0;
+        font-size  : 15px
+    }
+
+    .block-text-box h3 {
+        font-size: 13px
+    }
+
+    .getinform .form-group {
+        width: 100%
+    }
+
+    .effect-16~label {
+        top      : 9px;
+        font-size: 14px
+    }
+
+    .email-section .email-info .addr-two {
+        font-size: 13px
+    }
+
+    .upload-block {
+        position: relative;
+        top     : 42px;
+        left    : -6px
+    }
+
+    .btn-row-block {
+        position: relative;
+        left    : -15px
+    }
+
+    .btn-row-block .blue-new-btn {
+        padding: 17px 25px
+    }
+
+    .footer-title {
+        margin-top: 15px
+    }
+
+    .email-section .email-info .addr-two p {
+        font-size: 15px
+    }
+
+    .footer-bottom-text p {
+        height: 135px
+    }
+
+    .maniProtFolio .btnRow {
+        margin-top: 30px
+    }
+
+    .banner-top .container {
+        width : 100%;
+        margin: 0
+    }
+
+    .index_top_header {
+        margin : 0;
+        padding: 0
+    }
+
+    .marr80 {
+        margin-right: 0;
+        margin-left : 0
+    }
+
+    .rescenetr {
+        text-align: center
+    }
+}
+
+@media(min-width:1025px) and (max-width:1149px) {
+    .main-links ul.mainclick li a {
+        font-size: 10px
+    }
+
+    .main-nav li {
+        padding: 1px
+    }
+
+    .top-menu ul.top li a {
+        padding  : 10px 13px;
+        font-size: 10px
+    }
+
+    #navclosebtn {
+        display   : none;
+        visibility: hidden
+    }
+
+    .top-nav {
+        margin: 10px 0
+    }
+}
+
+@media(min-width:1150px) and (max-width:1300px) {
+    .top-nav {
+        margin: 3px
+    }
+
+    .main-nav li {
+        padding: 5px
+    }
+
+    .main-links ul.mainclick li a {
+        font-size: 12px
+    }
+
+    #navclosebtn {
+        display: none
+    }
+}
+
+@media(width:320px) {
+    .footer-bottom-text a {
+        font-size: 10px
+    }
+
+    .success-story-item {
+        margin-top: 40px
+    }
+
+    .container-as,
+    .banner-box {
+        padding-left: 0
+    }
+
+    .inner-item-list {
+        width: 100%
+    }
+
+    .BtnClient li {
+        font-size   : 11px;
+        margin-right: 2px
+    }
+
+    .aavc .owl-carousel .owl-item img {
+        margin-top: 10px
+    }
+
+    .career-text h3 {
+        font-size  : 12px;
+        line-height: 16px;
+        padding-top: 10px
+    }
+
+    .mgb0 {
+        margin-bottom: 0 !important
+    }
+
+    .paddingb30 {
+        padding-bottom: 30px
+    }
+
+    .nav-grid {
+        position: absolute;
+        right   : -10px;
+        top     : -51px
+    }
+
+    .stickyheader .nav-grid {
+        top: -41px
+    }
+
+    .inquiry-btn {
+        display   : none;
+        visibility: hidden
+    }
+
+    .associatedgvt-img img {
+        position: relative;
+        top     : 51px
+    }
+
+    .associatedgvtmain {
+        height: 630px
+    }
+
+    .associatedgvt h3 {
+        font-size: 39px
+    }
+}
+
+@media(min-width:1100px) {
+    .navigation-part .fa {
+        display: none
+    }
+}
+
+@media(max-width:1023px) {
+    .main1-box {
+        text-align: center;
+        height    : 130px
+    }
+
+    .main1-box .exp-img {
+        float     : none !important;
+        text-align: center
+    }
+
+    .main1-box .text-year {
+        padding-left: 20px;
+        margin-top  : -3px;
+        float       : none !important;
+        text-align  : center
+    }
+
+    .main1-box .text-year h3 {
+        font-size  : 16px;
+        margin     : 10px 0 5px;
+        line-height: 16px
+    }
+
+    .main1-box .text-year p {
+        text-align: center;
+        font-size : 18px
+    }
+}

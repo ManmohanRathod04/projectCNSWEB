@@ -1,0 +1,305 @@
+.bg-grey {
+    background-color: #f2f2f28f !important
+}
+
+.bg-royalblue {
+    background-color: #175282 !important
+}
+
+.bg-darkgrey {
+    background-color: #555 !important
+}
+
+.bg-saffron {
+    background-color: #fe9a51 !important
+}
+
+.text-blue {
+    color: #2f90d0 !important
+}
+
+.text-hover-blue:hover, .text-skyblue-hover:hover, .text-skyblue {
+    color: #24a9f6 !important
+}
+
+.text-tealgreen-hover:hover, .text-tealgreen {
+    color: #018c55 !important
+}
+
+.text-green-hover:hover, .text-green {
+    color: #3a8a2e !important
+}
+
+.text-darkblue {
+    color: #1866b1 !important
+}
+
+.bg-green {
+    background-color: #3a8a2e !important
+}
+
+.bg-navyblue {
+    background-color: #062b44 !important;
+    background: #062b44 !important
+}
+
+.bg-darkblue {
+    background-color: #1866b1 !important
+}
+
+.hover-bg-green:hover {
+    background-color: #3a8a2e !important
+}
+
+.hover-bg-darkblue:hover {
+    background-color: #1866b1 !important
+}
+
+.text-red-hover:hover, .text-red {
+    color: #da4f4f !important
+}
+
+.bg-red {
+    background-color: #da4f4f !important
+}
+
+.hover-text-red {
+    color: #da4f4f !important
+}
+
+.hover-bg-red:hover {
+    background-color: #da4f4f !important
+}
+
+.text-yellow {
+    color: #d8ab2c !important
+}
+
+.bg-blue {
+    background-color: #2f90d0 !important
+}
+
+.bg-yellow {
+    background-color: #d8ab2c !important
+}
+
+.bg-skyblue {
+    background-color: #24a9f6 !important
+}
+
+.bg-tealgreen {
+    background-color: #018c55 !important
+}
+
+.hover-bg-blue:hover {
+    background-color: #2f90d0 !important
+}
+
+.hover-bg-yellow:hover {
+    background-color: #d8ab2c !important
+}
+
+.hover-bg-skyblue:hover {
+    background-color: #24a9f6 !important
+}
+
+.hover-bg-tealgreen:hover {
+    background-color: #018c55 !important
+}
+
+.border-blue {
+    border: 2px solid #2f90d0 !important
+}
+
+.border-green {
+    border: 2px solid #3a8a2e !important
+}
+
+.border-darkblue {
+    border: 2px solid #1866b1 !important
+}
+
+.border-red {
+    border: 2px solid #da4f4f !important
+}
+
+.border-skyblue {
+    border: 2px solid #24a9f6 !important
+}
+
+.border-tealgreen {
+    border: 2px solid #018c55 !important
+}
+
+.border-yellow {
+    border: 2px solid #d8ab2c !important
+}
+
+.text-blue-hover:hover, .text-blue {
+    color: #2f90d0 !important
+}
+
+.text-white, .text-white-hover:hover {
+    color: #fff !important
+}
+
+.bg-white {
+    background-color: #fff !important
+}
+
+.bg-black-transparent {
+    background-color: #0000004f !important
+}
+
+.color-inverse {
+    background-color: #444 !important;
+    color: #fff !important
+}
+
+.box-shadow-1 {
+    box-shadow: 0 0 15px 3px #dedede
+}
+
+.text-black {
+    color: #3c3c3c !important
+}
+
+.text-grey {
+    color: #b3b3b3 !important
+}
+
+.text-darkgrey {
+    color: #555 !important
+}
+
+.text-shadow-1 {
+    text-shadow: 3px 2px 0 #000 !important
+}
+
+.font-calibri {
+    font-family: calibri, Lucida-sans, verdana, sans-serif !important
+}
+
+.font-proxima {
+    font-family: proxima_novalight, Lucida-sans, verdana, sans-serif !important
+}
+
+.no-border {
+    border: none !important
+}
+
+.border-grey {
+    border: 1px solid #aaa
+}
+
+.bg-none {
+    background: 0 0 !important
+}
+
+.bg-gradient-lightblue {
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6)
+}
+
+.bg-gradient-darkblue {
+    background: linear-gradient(to right, #062b44, #0e5d92, #062b44)
+}
+
+.bg-muscut-blue {
+    background-color: #2e6fc9 !important
+}
+
+.hover-bg-muscut-blue:hover {
+    background-color: #2e6fc9 !important
+}
+
+.text-muscat-yellow {
+    color: #2e6fc9 !important
+}
+
+.border-muscat-yellow {
+    color: #2e6fc9 !important
+}
+
+.bg-fitindia-blue {
+    background-color: #1b6a93 !important
+}
+
+.hover-bg-fitindia-blue:hover {
+    background-color: #1b6a93 !important
+}
+
+.text-fitindia-yellow {
+    color: #1b6a93 !important
+}
+
+.border-fitindia-yellow {
+    border: 2px solid #1b6a93 !important
+}
+
+.bg-skyblue {
+    background-color: #3a8a2e !important
+}
+
+.bg-tarha-orange {
+    background-color: #f58a37 !important
+}
+
+.hover-bg-tarha-orange:hover {
+    background-color: #f58a37 !important
+}
+
+.text-tarha-orange {
+    color: #f58a37 !important
+}
+
+.border-tarha-orange {
+    border: 2px solid #f58a37 !important
+}
+
+.bg-bookmywash-blue {
+    background-color: #2fbaac !important
+}
+
+.hover-bg-bookmywash-blue:hover {
+    background-color: #2fbaac !important
+}
+
+.text-bookmywash-blue {
+    color: #2fbaac !important
+}
+
+.border-bookmywash-blue {
+    border: 2px solid #2fbaac !important
+}
+
+.bg-amar-blue {
+    background-color: #d71922 !important
+}
+
+.hover-bg-amar-blue:hover {
+    background-color: #d71922 !important
+}
+
+.text-amar-blue {
+    color: #d71922 !important
+}
+
+.border-amar-blue {
+    border: 2px solid #d71922 !important
+}
+
+.bg-exam-blue {
+    background-color: #52d64a !important
+}
+
+.hover-bg-exam-blue:hover {
+    background-color: #52d64a !important
+}
+
+.text-exam-blue {
+    color: #52d64a !important
+}
+
+.border-exam-blue {
+    border: 2px solid #52d64a !important
+}

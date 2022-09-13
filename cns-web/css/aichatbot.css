@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'poppins',sans-serif; */
+}
+
+body{
+    font-family: proxima_novalight, Tahoma, sans-serif;
+}
+
+
+
+
+/* ios-cont-bo */
+
+
+.ios-cont-box{
+    border: 0px solid red;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+ .ios-cont-box  .abt-author-header-img h2{
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 36px;
+    margin: 20px 0 10px;
+}
+
+.ios-cont-box .abt-author-header-img h3{
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 19px;
+}
+
+
+
+.container{
+    border: 0px solid red;
+}
+
+
+.aichatbot-heading h2{
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.box-listing .fas{
+color: orange;
+padding-right: 4px;
+font-size: 15px;
+}
+
+
+.req_form{
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    margin-top: 20px;
+    height: 64vh;
+    width: auto;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+#req_form_side_rav .reqtext{
+    font-size: 29px;
+    padding: 20px 0 0;
+}
+
+
+.req_form .requestquateinner p {
+    color: #fff;
+    font-size: 11px;
+    margin: 0 0 5px;
+}
+
+.req_form .requestquateinner{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+
+.req_form .requestquateinner input[type=text], select {
+    padding: 12px 30px 12px 14px;
+    font-size: 13px;
+    color: #242424;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;
+    /* margin: 20px 0; */
+    line-height: 30px;
+}
+
+.req_form input{
+    border-radius: 0px;
+    border: 0px solid red ;
+}
+
+.req_form select {
+    /* margin: 9px 0 !important; */
+    border-radius: 0 !important;
+    border: 0px solid red;
+}
+
+.req_form .request_19 {
+    height: 46px;
+}
+
+/* ios-cont-bo */
+
+  
+  
+
+/* business-requirements-section */
+
+.business-requir-list-box ul {
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    list-style: none;
+    padding: 30px 10px 6px;
+    display: inline-block;
+    width: 100%;
+    padding: 30px 23px;
+}
+.business-requir-list-box ul li {
+    margin-bottom: 22px;
+    overflow: hidden;
+    width: 25%;
+    padding: 0;
+}
+
+.business-requir-list-box ul li a {
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    line-height: 16px;
+}
+
+
+
+/* business-requirements-section */
+
+/* HAVE AN AWESOME IDEA? LET'S DISCUSS THE PROJECT! */
+
+.font32 {
+    font-size: 32px!important;
+    font-weight: 500;
+    color: #000;
+    font-family: proxima_novalight, Tahoma, sans-serif;
+
+
+}
+
+/* .flight {
+} */
+
+.regular-sub-head {
+    font-family: proxima_novalight, Tahoma, sans-serif;
+    font-size: 17px;
+    color: #717171;
+    margin: 7px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding-bottom: 20px;
+}
+
+.connectBtn {
+    margin-top: 0;
+    border: 0;
+    font-family: calibri, Tahoma, sans-serif;
+    font-size: 15px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.blue-new-btn {
+    padding: 15px 33px;
+    /* background: none repeat scroll 0 0 #1866b1!important; */
+}
+
+
+/* HAVE AN AWESOME IDEA? LET'S DISCUSS THE PROJECT! */
+
+/* our Chatbot Developmen */
+
+.testimonial_section{
+    display: flex; 
+    flex-direction: column;   
+    position: relative;
+    width: auto;
+    height: 100%; 
+    border: 0px solid red;
+
+}
+
+#main{
+    border: 1px solid #aaa; 
+    text-align: center;
+    width: 84%;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.img-container img{
+    width: 100%;
+    height: 20vh;
+}
+
+.review #author{
+    text-transform: uppercase;
+    color: #2e2e2e;
+    font-size: 20px !important;
+    font-family: calibri, Tahoma, sans-serif;
+}
+
+.review #job{
+    text-transform: uppercase;
+    color: #676767;
+    letter-spacing: .6px;
+    font-size: 12px !important;
+}
+
+
+.review #infomations{
+    font-size: 14px!important;
+    line-height: 16px!important;
+    color: #676767!important;
+    text-align: justify;
+  overflow-y: scroll;
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  margin: 10px 0 10px 0;
+}
+
+ .review #infomations ::-webkit-scrollbar {
+    /* width: 3px; */
+ }
+
+ .review #infomations::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+ }
+
+ .review #infomations::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px orange;
+ }
+
+ .button-container{
+     border: 1px solid red;
+ }
+
+ .button-container, .prev-btn, .next-btn{
+     background: none;
+     color: orange;
+     border: none;
+     padding:5px 20px ;
+     font-size: 18px;
+ }
+
+.next-btn:hover{
+     background: orange;
+     color: #fff;
+ }
+
+ .prev-btn:hover{
+    background: orange;
+    color: #fff;
+}
+/* our Chatbot Developmen */
+
+/* media query */
+
+@media(min-width:992px) and (max-width:1199px){
+    #main{
+   width: auto;
+    }
+}
+
+@media(min-width:567px) and (max-width:767px){
+    #main{
+   width: 50%;
+    }
+}
+
+@media(min-width:467px) and (max-width:566px){
+    #main{
+   width: 70%;
+    }
+}
+@media(min-width:310px) and (max-width:466px){
+    #main{
+   width: 80%;
+    }
+}
+/* media query */
+
+
+
+
+
+
+

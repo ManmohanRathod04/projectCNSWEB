@@ -1,0 +1,795 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar  */
+
+.navbar{
+    background-color: #b1d4e5 ;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.navbar-brand img{
+    /* width:  70px; */
+    height: 70px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.collapse .nav-link{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #d63031;
+}
+
+.collapse .nav-link:hover{
+    text-decoration: underline;
+    color: #333;
+}
+
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+    background-color: #FAFDD6;
+    border-radius: 2px;
+    border: none;
+}
+.navbar-nav li:hover > ul.dropdown-menu a{
+    color: #d63031;
+    font-weight: 600;
+}
+.dropdown-submenu {
+    position:relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    right: 100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+
+}
+
+/* navbar  */
+
+
+/* whatsapp-button */
+
+.whatsapp{
+    position: absolute;
+    top: 620px;
+    left: 90%;
+    z-index: 22;
+    position: fixed;
+
+}
+
+.whatsapp-button i{
+    color: #fff;
+    background-color: #25D366;
+    padding: 10px 15px;
+    border-radius: 100%;
+    font-size: 50px;
+}
+
+/* whatsapp-button */
+/* modal  */
+
+.modal-body{
+    display: flex; 
+    background-color: #56CCF2;
+  }
+  
+  .modalimage{
+    width: 50%;
+  }
+  
+  .modalimage img{
+   width: 100%;
+   height: 100%;
+   /* overflow-x: hidden; */
+  }
+  
+  .modal-body form{
+    padding: 20px;
+    /* border: 2px solid red; */
+    width: 50%;
+    border-bottom: none;
+    /* background-color: #56CCF2; */
+  
+  }
+  
+  .modal-body form{
+  color:#161616;
+  }
+  
+  .modal-body form i:hover{
+  cursor: pointer;
+  }
+  
+  .modal-body form .col-form-label{
+    color: #161616;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .modal-body form input{
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #171717;
+  }
+  
+  .mb-3{
+    margin-bottom: 0;
+  }
+  
+  .modal-btn {
+    background: #d63031;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all ease-in-out .5s;
+  }
+
+  .modal-btn:hover{
+    padding: 10px 35px;
+  }
+  
+  /* modal  */
+/* carousel */
+
+.carousel-item img{
+    width: 100%;
+    height: 76vh;
+}
+
+ .carousel-caption {
+    position: relative;
+    top: 30%;
+   
+}
+
+.carousel-caption h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+
+}
+.carousel-caption p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* carousel */
+
+
+/* Home-about */
+
+.home-about{
+    background-color: #FAFDD6;
+}
+
+.about-images img{
+    width: 100%;
+    height: 100%;
+    border: 0px solid red;
+}
+
+.homeab{
+    padding: 0 20px;
+}
+
+.home-column{
+    padding-top: 60px ;
+}
+
+.about-images{
+    padding: 30px;
+}
+
+
+/* Home-about */
+
+/* service  */
+
+.card-1{
+    background-color: #d63031;
+    color: #fff;
+    padding: 10px;
+    height:100%;
+
+}
+
+.white-card{
+    background-color: #fff;
+    box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 9%);
+    color: #000;
+    padding: 10px;
+}
+
+.white-card .img-logo i{
+    color: #d63031;
+}
+.img-logo{
+    color: #fff;
+    font-size: 50px;
+}
+
+/* service  */
+
+/* ecpert advice */
+
+.ecpert-advice {
+    background: url("../image/expert.jpg") no-repeat center;
+    background-size: cover;
+ width: 100%;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    padding: 80px 60px;
+    color: #ECECEC;
+    font-family: 'Roboto', sans-serif;
+    text-transform:uppercase;
+}
+
+.content p{
+    color: #bfbfbf;
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+/* ecpert advice */
+
+
+
+/* ======About Page ======== */
+/* about-page */
+
+.about-page{
+    background: url('../image/headerimage.png') no-repeat center;
+    background-size: cover;
+    padding: 10% 0; 
+    text-align: center;
+}
+
+.about-page h3{
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+/* about-page */
+
+/* about-content */
+
+.about-content h2{
+    color: #d63031;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.about-content p{
+    text-align: justify;
+    color: #5F5B5B;
+    font-size: 15px;
+    line-height: 2em;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+}
+
+/* about-content */
+
+
+/* guiding-principles */
+
+.guidingheadeing h2{
+color: #d63031;
+font-size: 40px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+}
+
+.guiding-card .logo i{
+font-size: 50px;
+color: #d63031;
+
+}
+
+.guiding-card h4{
+    font-weight: 600;
+    padding: 15px 0;
+    font-family: 'Roboto',sans-serif;
+
+}
+.guiding-card p{
+    font-family: 'Roboto',sans-serif;
+font-size: 15px;
+color: #5F5B5B;
+
+}
+
+/* guiding-principles */
+
+/* ======About Page ======== */
+
+
+/* property page  */
+
+.property{
+    background: url('../image/property.jpg') no-repeat center;
+    background-size: cover;
+    /* padding: 10% 0;  */
+    text-align: center;
+}
+
+.property-page{
+    padding: 10% 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.property-page h3{
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.card-prpty{
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+}
+
+.prptContent a:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ background-color: #333;
+    color: #fff;
+}
+.img img{
+    width: 200px; 
+    height: 100%;   
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.prptContent{
+    /* border: 2px solid blue; */
+    padding: 15px;
+
+}
+
+.prptContent h3{
+    color: #d63031;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+
+}
+
+.prptContent p{
+    font-size: 15px;
+    color: #000;
+    font-weight: 200;
+    font-family: 'Roboto',sans-serif;
+    text-align: justify;
+    margin-bottom: 26px;
+}
+
+.prptContent a{
+    background-color: #d63031;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Roboto',sans-serif;
+    border-radius: 3px;
+    transition: all .5s;
+}
+
+/* property page  */
+
+/* stock market-page */
+.stock{
+    background: url('../image/stock.jpg') no-repeat center;
+    background-size: cover;
+    /* padding: 10% 0;  */
+    text-align: center;
+}
+
+.stockMarket{
+    padding: 10% 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.stockMarket h3{
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+/* stock market-page */
+
+/* calculate loan-page */
+.calculate{
+    background: url('../image/calculator.jpg') no-repeat center;
+    background-size: cover;
+    /* padding: 10% 0;  */
+    text-align: center;
+}
+
+.calculateLoan{
+    padding: 10% 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.cal {
+    border: 0px solid blue;
+    border-radius: 10px;
+    background:url('../image/bgCalculator.jpg') no-repeat center ;
+    background-size: cover;
+    
+}
+
+.Calculatecontent h1{
+    color: #fff;
+}
+
+.calculateLoan h3{
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.level-item .text{
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 80px;
+    font-weight: 500;
+}
+.level-item .number{
+    padding: 10px;
+    width: 57px;
+    text-align: center;
+    margin-top: 10px ;
+    font-size: 20px;
+    color: #333;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 3px solid #d63031;
+    
+}
+
+.control input{
+    width: 50%;
+    height: 35px;
+}
+
+.icon i{
+    color: #fff;
+    padding-left: 10px;
+}
+
+.control{
+    padding-top: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.control .button{
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #d63031;
+}
+
+.notification{
+    padding: 10px 20px;
+    background-color: #d63031;
+    border-radius: 5px;
+}
+
+.notification2{
+    background-color: #222;
+
+}
+
+.notification .title{
+    font-size: 40px;
+    color: #fff;
+}
+
+.notification .subtitle{
+    font-size: 20px;
+    color: #fff;
+
+}
+/* calculate loan-page */
+
+/* life-insurance  */
+
+.insuranceL{
+    background: url('../image/lifeinsurance.jpg') no-repeat center;
+    background-size: cover;
+    /* padding: 10% 0;  */
+    text-align: center;
+}
+
+.insuranceL-page{
+    padding: 10% 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.insuranceL-page h3{
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.insurance-content{
+    background-color: #FAFDD6;
+}
+
+.para{
+    text-align: justify;
+    color: #5F5B5B;
+    font-size: 15px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+.insurancCnt h3{
+    color: #d63031;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+}
+
+.insurancCnt ol li{
+    color: #333;
+    font-weight: 500;
+    font-size: 17.5px;
+}
+.insurancCnt ul li{
+    color: #333;
+    font-weight: 500;
+    font-size: 17.5px;
+}
+/* life-insurance  */
+
+/* stockMarket */
+
+.stockMarkets{
+    margin-top: 20px;
+    height: 80vh;
+    /* background-color: #fff; */
+}
+
+/* stockMarket */
+
+/* footer */
+
+.footer{
+    background: url('../image/footer.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer-head h4{
+    color: #EAEAEA;
+}
+
+.footer-head .list ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-head .list ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.footer-head .list ul li a:hover{
+    color: rgb(92, 92, 212);
+}
+/* footer */
+
+@media(max-width:1267px){
+    .whatsapp{
+        position: absolute;
+        top: 580px;
+        left: 90%;
+        position: fixed;
+    }
+}
+
+@media(max-width:991px){
+    .cardPrpt2{
+        margin-bottom: 50px;
+    }
+
+    .whatsapp{
+        position: absolute;
+        top: 580px;
+        left: 85%;
+        position: fixed;
+    }
+}
+
+@media(max-width:767px){
+    
+    .control .input{
+        position: relative;
+        left: -110px;
+
+    }
+    .control .icon i{
+        position: relative;
+        left: -110px;
+
+    }
+
+    .result{
+        margin-bottom: 20px;
+    }
+
+    .whatsapp{
+        position: absolute;
+        top: 580px;
+        left: 85%;
+        position: fixed;
+    }
+}
+
+
+@media(max-width:576px){
+
+    /* index-page  */
+
+    .card-1{
+        margin: 0 20px;
+    }
+
+    .card-margin{
+        margin-bottom: 20px;
+    }
+
+     .home-column p{
+        text-align: justify;
+     }
+
+    /* index-page  */
+
+    /* about-page  */
+
+    .guid{
+        padding: 0 30px;
+    }
+    /* about-page  */
+
+    /* calculator */
+
+    .control {
+        position: relative;
+        right: 6%;
+    }
+
+    .button{
+        margin-left: 44%;
+    }
+    /* calculator */
+
+    .whatsapp{
+        position: absolute;
+        top: 580px;
+        left: 80%;
+        position: fixed;
+    }
+
+}
+
+@media(max-width:469px){
+    .card-prpty{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img img{
+        width: 100%;
+        height: auto;
+        border-bottom-left-radius: 0px ;
+        border-top-left-radius: 0px ;
+        border-top-right-radius: 10px ;
+        border-top-left-radius: 10px ;
+    }
+
+    /* .calculator */
+    .control {
+        position: relative;
+        right: -3%;
+    }
+
+    .button{
+        margin-left: 20%;
+    }
+
+    /* calculator */
+
+    .whatsapp{
+        position: absolute;
+        top: 580px;
+        left: 75%;
+        position: fixed;
+    }
+
+    /* modal  */
+
+    .modalimage img{
+        display: none;
+    }
+
+    .modal-body{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+
+    .modal-body form{
+        width: auto;
+    }
+    /* modal  */
+}
+
+@media(max-width:367px){
+
+     /* .calculator */
+     .control .input{
+        position: relative;
+        left: -20%;
+    }
+
+    .button{
+        margin-left: 20%;
+    }
+
+    /* calculator */
+
+    /* .whatsapp */
+
+    .whatsapp{
+        position: absolute;
+        top: 580px;
+        left: 70%;
+        position: fixed;
+    }
+
+    /* .whatsapp */
+
+}

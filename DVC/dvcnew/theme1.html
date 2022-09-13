@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<!-- Mirrored from s7template.com/tf/prooland/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Apr 2021 12:43:33 GMT -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Digital Card</title>
+  <!--Fevicon icon-->
+  <link rel="icon" href="img/fevicon.png">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/slick-slider.css">
+  <!-- <link rel="stylesheet" href="{{ asset('themedata/css/fontawesome.min.css')}}"> -->
+  <link rel="stylesheet" href="css/theme1-style.css">
+  <!-- <link rel="stylesheet" href="{{ asset('themedata/css/theme1-style.css')}}"> -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Inter:wght@400;600&family=Montserrat&family=Rokkitt:wght@600&family=Tinos&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&amp;family=Poppins:wght@300;400;500;600;700;800&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ 
+  <!-- preloader area start -->
+  <div class="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+  <!-- preloader area end -->
+
+  <div class="container">
+    <div class="container-wrapper themes">
+      <!-- First Main Page Section -->
+      <section class="bg-theme-1" id="main-page">
+
+        <!-- counter code -->
+        <div class="counter-code">
+          
+        </div>
+
+        <!-- profile pic, Company name, Your name and designation -->
+        <div class="intro">
+          <div class="display-pic">
+            <div class="company-logo">
+              <img src="./images/logo.jpg" alt="company logo">
+            </div>
+            <div class="company-name">
+              <h4 class="text-color"> Company Name </h4>
+            </div>
+          </div>
+          <div class="introduction">
+            <div class=" user-image">
+              <img src="./images/userimg.png" alt="user logo">
+            </div> <br>
+            <div class="your-name name-prof">
+              <h5 class="text-color"> <span> Sushant </span> Bhardwaj </h5>
+            </div>
+            <div class="person-designation name-prof">
+              <h6 class="text-color"> php Developer </h6>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Options -->
+        <div class="contact">
+          <!-- Call -->
+          <div class="contact-wrapper">
+            <a href="tel:{{$phone_no??''}}">
+              <div class="text-color bg-temp contact-option">
+                <i class="p-2 fas fa-phone-alt"></i> <br>
+                <p> Call </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Whatsapp -->
+          <div class="contact-wrapper">
+            <a href="https://wa.me/{{$whatsapp_no}}">
+              <div class="text-color bg-temp contact-option">
+                <i class="p-2 fab fa-whatsapp"></i> <br>
+                <p> Whatsapp </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Direction -->
+          <div class="contact-wrapper">
+            <a href="{!! html_entity_decode($direction_link) !!}">
+              <div class="text-color bg-temp contact-option">
+                <i class="p-2 fas fa-directions"></i> <br>
+                <p> Direction </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Mail -->
+          <div class="contact-wrapper">
+            <a href="mailto: {{$email_address ??''}}">
+              <div class="text-color bg-temp contact-option">
+                <i class="fas fa-envelope-open p-2"></i> <br>
+                <p> Mail </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="whatsapp-share">
+          <form class="" action="" method="post">
+            <div class="form-share">
+              <input type="text" id="sendWhatsup" name="" placeholder="+91">
+              <button type="button" class="sendMsg" name="button"><i class="p-2 fab fa-whatsapp"></i> Share on Whatsapp </button>
+            </div>
+          </form>
+        </div>
+      
+        <!-- Number, Alternate Number, Email, Website etc  -->
+        <div class="contact-buttons">
+
+          <!-- Call -->
+          <div class="contact-details">
+            <!-- Contact-icon -->
+            <div class="contact-icons">
+              <a href="tel:{{$phone_no??''}}">
+                <i class="fas fa-phone-alt"></i>
+              </a>
+            </div>
+            <!-- Contact-data -->
+            <div class="contact-data">
+              <p> 7503914632 </p>
+            </div>
+          </div>
+          <!-- Alternate Call -->
+          <div class="contact-details">
+            <!-- Contact-icon -->
+            <div class="contact-icons">
+              <a href="tel:{{$alt_phone??''}}">
+                <i class="fas fa-mobile-alt"></i>
+              </a>
+            </div>
+            <!-- Contact-data -->
+            <div class="contact-data">
+              <p> 7503914632 </p>
+            </div>
+          </div>
+          <!-- Email -->
+          <div class="contact-details">
+            <!-- Contact-icon -->
+            <div class="contact-icons">
+              <a href="mailto: {{$email_address ??''}}">
+                <i class="fas fa-envelope-open-text"></i>
+              </a>
+            </div>
+            <!-- Contact-data -->
+            <div class="contact-data">
+              <p> sushantbhardwaj@ymail.com</p>
+            </div>
+          </div>
+          <!-- Website -->
+          <div class="contact-details">
+            <!-- Contact-icon -->
+            <div class="contact-icons">
+              <a href=" {{$website ??''}} ">
+                <i class="fas fa-globe-americas"></i>
+              </a>
+            </div>
+            <!-- Contact-data -->
+            <div class="contact-data">
+              <p><a href="{{$website ??''}}"> https://www.google.com/ </a></p>
+            </div>
+          </div>
+          <!-- Business Location -->
+          <div class="contact-details">
+            <!-- Contact-icon -->
+            <div class="contact-icons">
+              <a href="{!! html_entity_decode($direction_link) !!}">
+                <i class="fas fa-map-pin"></i>
+              </a>
+            </div>
+            <!-- Contact-data -->
+            <div class="contact-data">
+              <p> raja puri</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Save to Contacts , Share -->
+        <div class="save-share">
+          <div class="save-contact">
+            <a href="wtai://wp/mc;{{$phone_no ??''}}">
+              <!--<a href="wtai://wp/ap;5000;">  -->
+
+              Save to Contacts
+              <i class="far fa-address-book"></i>
+            </a>
+          </div>
+          <div class="share-card" id="myBtn">
+            <a href="#" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">
+              Share
+              <i class="fas fa-share-square"></i>
+            </a>
+          </div>
+        </div>
+
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+          <span class="close">&times;</span>
+          <p> Share My Digital Card</p>
+
+      
+          <!--<div class="social-share">-->
+          <!--  <div class="social-share-btn">-->
+          <!--    <a data-action="share/whatsapp/share"  target="_blank" href="whatsapp://send?text={{$actual_link}}" class="whatsapp"> <i class="fab fa-whatsapp"></i> </a>-->
+          
+          <!--  </div>-->
+
+          <!--  <div class="social-share-btn">                -->
+          <!--     <a href="sms::?&body={{$actual_link}}" class="sms"> <i class="fas fa-sms"></i> </a>-->
+          <!--  </div>-->
+           
+          <!--   <div class="social-share-btn">-->
+          <!--  <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{$actual_link}}" target="_blank">-->
+          <!--        <i class="fab fa-facebook"></i> </a>-->
+          <!--  </div>-->
+          <!--</div>-->
+
+          <!--<div class="social-share">-->
+          <!--  <div class="social-share-btn">-->
+          <!--  <a class="twitter" href="http://www.twitter.com/share?url={{$actual_link}}" target="_blank"> <i class="fab fa-twitter"></i> </a>-->
+          <!--  </div>-->
+
+          <!--  <div class="social-share-btn">-->
+          <!--    <a href="https://www.instagram.com/?url={{$actual_link}}" target="_blank" class="instagram"> <i class="fab fa-instagram"></i> </a>-->
+          <!--  </div>-->
+  
+          <!--  <div class="social-share-btn">-->
+          <!--    <a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo $actual_link?>" class="linkedin"> <i class="fab fa-linkedin-in"></i> </a>-->
+          <!--  </div>-->
+            
+          <!--</div>-->
+
+
+      </div>
+
+        <!--  <div class="modal-content">-->
+        <!--    <span class="close">&times;</span>-->
+        <!--    <p> Share My Digital Card</p>-->
+        <!--    <?php   $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>-->
+        
+        <!--    <div class="social-share">-->
+        <!--      <div class="social-share-btn">-->
+        <!--        <a data-action="share/whatsapp/share"  target="_blank" href="whatsapp://send?text={{$actual_link}}" class="whatsapp"> <i class="fab fa-whatsapp"></i> </a>-->
+            
+        <!--      </div>-->
+
+        <!--      <div class="social-share-btn">                -->
+        <!--         <a href="sms::?&body={{$actual_link}}" class="sms"> <i class="fas fa-sms"></i> </a>-->
+        <!--      </div>-->
+             
+        <!--       <div class="social-share-btn">-->
+        <!--      <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{$actual_link}}" target="_blank">-->
+        <!--            <i class="fab fa-facebook"></i> </a>-->
+        <!--      </div>-->
+            
+
+        <!--    <div class="social-share">-->
+        <!--      <div class="social-share-btn">-->
+        <!--      <a class="twitter" href="http://www.twitter.com/share?url={{$actual_link}}" target="_blank"> <i class="fab fa-twitter"></i> </a>-->
+        <!--      </div>-->
+
+        <!--      <div class="social-share-btn">-->
+        <!--        <a href="https://www.instagram.com/?url={{$actual_link}}" target="_blank" class="instagram"> <i class="fab fa-instagram"></i> </a>-->
+        <!--      </div>-->
+    
+        <!--      <div class="social-share-btn">-->
+        <!--        <a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo $actual_link?>" class="linkedin"> <i class="fab fa-linkedin-in"></i> </a>-->
+        <!--      </div>-->
+              
+        <!--    </div>-->
+        <!--  </div>-->
+
+        <!--</div>-->
+
+        <!-- Social Links -->
+        <div class="social-links">
+            <?php if($facebook !=''){ ?>
+          <a href="{{$facebook ??''}}">
+            <div class="links">
+              <i class="fab fa-facebook"></i>
+            </div>
+          </a>
+          <?php } if($twitter !=''){ ?>
+
+          <a href="{{$twitter ??''}}">
+            <div class="links">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </a>
+           <?php } if($instagram !=''){ ?>
+
+          <a href="{{$instagram ??''}}">
+            <div class="links">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </a>
+ <?php } if($linkedin !=''){ ?>
+          <a href="{{$linkedin ??''}}">
+            <div class="links">
+              <i class="fab fa-linkedin"></i>
+            </div>
+          </a>
+ <?php } if($youtube !=''){ ?>
+          <a href="{{$youtube ??''}}">
+            <div class="links">
+              <i class="p-2 fab fa-whatsapp"></i>
+            </div>
+          </a>
+ <?php } ?>
+          <!-- <a href="#">
+              <div class="links">
+                <i class="fab fa-pinterest"></i>
+              </div>
+            </a>
+          </div> -->
+
+      </section>
+    </div>
+
+    <!-- <div class="container-wrapper themes"> -->
+      <!-- Second QR Code page -->
+      <!-- <section id="qr-code-page">
+        <div class="heading">
+          <h4>Scan QR Code to download the contact details</h4>
+        </div>
+        <div class="content">
+          <img src="{{asset('public/images/contactqr/')}}/<?php echo $contact_qr ?>" class="qr-code-img" alt="qr code">
+        </div>
+      </section>
+    </div> -->
+    <div class="container-wrapper themes">
+      <!-- Third About us -->
+      <section id="about-us-page">
+        <div class="heading">
+          <h4>About Us</h4>
+        </div>
+        <div class="content">
+
+          <!-- <div class="about-us-year">
+              <p>2020</p>
+            </div> -->
+          <div class="about-detail">
+            <p>
+              Company Name: sushant test <br>
+              Year : 2022-01-19
+              <ol>
+                <li>description</li>
+                <li> vghvvgvuguyfguyfyu</li>
+                <li>weufguewfywwif</li>
+                <li>ewjfuewfyuyuewuywgewgfyuefbekjfbuewgfuyegfkjbnbvhjgugibhiolvyu</li>
+              </ol>
+            </p>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container-wrapper themes">
+      <!-- Fourth Product & Services -->
+      <section id="product-services">
+        <div class="heading">
+          <h4> Product & Services</h4>
+        </div>
+    
+          <div class="content">
+            <!-- Product 1 -->
+            <div class="product-details">
+              <h4 class="product-name"> Test product 1 </h4>
+              <img src="./images/Audit.jpg" alt="product">
+            </div>
+          </div>
+          <div class="content">
+            <!-- Product 1 -->
+            <div class="product-details">
+              <h4 class="product-name"> Test product 2 </h4>
+              <img src="./images/dark.jpg" alt="product">
+            </div>
+          </div>
+
+      </section>
+    </div>
+
+
+    <div class="container-wrapper themes">
+      <!-- Fifth Shop Online -->
+      <section id="online-shop">
+        <div class="heading">
+          <h4> Shop Online From Our Store</h4>
+        </div>
+
+        <div class="content">
+          <!-- Product 1 -->
+       
+            <div class="shop-details">
+              <img src="./images/MSME.png" alt=" selling product">
+              <h4 class="product-name"> Test Product 1 </h4>
+              <s class="cut-price">MRP : 150</s>
+              <h4 class="new-price">Selling Price :140</h4>
+              <a href="https://api.whatsapp.com/send?phone={{$whatsapp_no}}&text=Product Name-{{$order_name}},Price-{{$selling_price}}">
+                <button type="button" class="buy-now"> Buy Now</button>
+              </a>
+            </div>
+            <div class="shop-details">
+              <img src="./images/dark.jpg" alt=" selling product">
+              <h4 class="product-name"> Test Product 2 </h4>
+              <s class="cut-price">MRP : 165</s>
+              <h4 class="new-price">Selling Price :155</h4>
+              <a href="https://api.whatsapp.com/send?phone={{$whatsapp_no}}&text=Product Name-{{$order_name}},Price-{{$selling_price}}">
+                <button type="button" class="buy-now"> Buy Now</button>
+              </a>
+            </div>
+
+        </div>
+      </section>
+    </div>
+
+    <div class="container-wrapper themes">
+      <!-- Sixth Image Gallery -->
+      <section id="image-gallery">
+        <div class="heading">
+          <h4> Image Gallery </h4>
+        </div>
+       
+          <div class="content">
+            <!-- Picture Gallery -->
+            <div class="gallery-img">
+              <img src="./images/MSME.png" alt="gallery img">
+            </div>
+          </div>
+          <div class="content">
+            <!-- Picture Gallery -->
+            <div class="gallery-img">
+              <img src="./images/light.jpg" alt="gallery img">
+            </div>
+          </div>
+
+      </section>
+    </div>
+  
+    <div class="container-wrapper themes">
+      <!-- Seventh Youtube Videos -->
+      <section id="youtube-videos">
+        <div class="heading">
+          <h4> Youtube Videos </h4>
+        </div>
+
+        <div class="content">
+          <!-- Youtube Link -->
+         
+            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/<?php echo $link ?>">
+            </iframe>
+          
+        </div>
+      </section>
+    </div>
+
+
+    <div class="container-wrapper themes">
+      <!-- Eighth Payment Section -->
+      <section id="payment-info">
+        <div class="heading">
+          <h4> Payment Info </h4>
+        </div>
+
+        <div class="content">
+          <!-- paytm number -->
+          <div class="payment-details">
+            <p> Paytm </p>
+            <h5 class="paytm-no"> 1234567895 </h5>
+          </div>
+          <!-- Google Pay number -->
+          <div class="payment-details">
+            <p> Google Pay </p>
+            <h5 class="google-pay-no"> 1234567895 </h5>
+          </div>
+          <!-- Phone Pe Number -->
+          <div class="payment-details">
+            <p> Phone Pe </p>
+            <h5 class="phone-pe-no"> 1234567895 </h5>
+          </div>
+        </div>
+
+        <div class="heading">
+          <h4> Bank Account Details </h4>
+        </div>
+
+        <div class="content">
+          <!-- Account Name -->
+          <div class="payment-details">
+            <p> Name </p>
+            <h5 class="account-name"> Chandan Kumar </h5>
+          </div>
+          <!-- Account Number -->
+          <div class="payment-details">
+            <p> Account Number </p>
+            <h5 class="account-number"> 12345678910121314 </h5>
+          </div>
+          <!-- IFSC Code -->
+          <div class="payment-details">
+            <p> IFSC Code </p>
+            <h5 class="ifsc-code"> PUNB0F343 </h5>
+          </div>
+          <!-- Bank Name -->
+          <div class="payment-details">
+            <p> Bank Name </p>
+            <h5 class="bank-name"> Punjab National Bank </h5>
+          </div>
+        </div>
+        
+      </section>
+    </div>
+
+    <div class="container-wrapper themes">
+      <!-- Ninth Contact Us -->
+      <section id="contact-us-page">
+        <div class="heading">
+          <h4> Contact Us </h4>
+        </div>
+
+        <div class="content">
+          <form action="card-enquiry" method="POST" class="contact-form">
+            <div class="input-name">
+              <input type="text" name="name" placeholder="Enter Your Name">
+            </div>
+            <div class="input-no">
+              <input type="text" name="mobile" placeholder="Enter Your Mobile Number">
+            </div>
+            <div class="input-email">
+              <input type="hidden" name="company_email" value="{{$email_address}}" />
+              <input type="email" name="email" placeholder="Enter Your Email">
+            </div>
+            <div class="input-query">
+              <textarea name="message" required placeholder="Enter Your Message or Query"></textarea>
+            </div>
+            <div class="send-button">
+
+              <input type="submit" type="button" class="send">
+
+            </div>
+          </form>
+        </div>
+
+        <div class="copyright">
+          <p>Create Your Card Now || 2021</p>
+        </div>
+      </section>
+    </div>
+
+
+  </div>
+
+  <footer>
+
+    <!-- <div class="scroll-menu">
+          <a href="#main-page"> <i class="fas fa-home"></i> Home </a>
+          <a href="#about-us-page"> <i class="fas fa-poll-h"></i> About Us </a>
+          <?php if(!($product_data->isEmpty())){ ?>
+          <a href="#product-services"> <i class="fab fa-product-hunt"></i> Product & Services </a>
+          <?php } if(!($order_data->isEmpty())){ ?>
+          <a href="#online-shop"> <i class="fas fa-shopping-cart"></i> Shop Online </a>
+          <?php } if(!($gallery_data->isEmpty())){ ?>
+          <a href="#image-gallery"> <i class="fas fa-images"></i> Gallery </a>
+          <?php } if(!($video_data->isEmpty())){ ?>
+          <a href="#youtube-videos"> <i class="fas fa-video"></i> Youtube Videos </a>
+          <?php } if(($paytm_no) &&($gpay_no) && ($phonepay_no)&&($acc_holder_name) &&($acc_no) !='' ){ ?>
+          <a href="#payment-info"> <i class="fas fa-money-bill-wave"></i> Payment </a>
+          <?php } ?>
+          <a href="#contact-us-page"> <i class="fas fa-comment-alt"></i> Enquiry </a>
+        </div> -->
+
+
+
+    <ul type="none">
+      <a href="#main-page">
+        <li> <i class="fas fa-home"></i> Home </li>
+      </a>
+      <a href="#about-us-page">
+        <li> <i class="fas fa-poll-h"></i> About Us </li>
+      </a>
+
+      <a href="#product-services">
+        <li> <i class="fab fa-product-hunt"></i> Product & Services </li>
+      </a>
+     
+      <a href="#online-shop">
+        <li> <i class="fas fa-shopping-cart"></i> Shop Online </li>
+      </a>
+     
+      <a href="#image-gallery">
+        <li> <i class="fas fa-images"></i> Gallery </li>
+      </a>
+     
+      <a href="#youtube-videos">
+        <li> <i class="fas fa-video"></i> Youtube Videos </li>
+      </a>
+     
+      <a href="#payment-info">
+        <li> <i class="fas fa-money-bill-wave"></i> Payment </li>
+      </a>
+   
+      <a href="#contact-us-page">
+        <li> <i class="fas fa-comment-alt"></i> Enquiry </li>
+      </a>
+    </ul>
+  </footer>
+
+
+
+  <!-- footer area start -->
+
+
+  <!-- footer area end -->
+
+  <!-- back to top area start -->
+  <!-- <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div> -->
+  <!-- back to top area end -->
+
+
+  <!-- all plugins here -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="{{asset('themedata/js/main.js')}}"></script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    $('body').on("click", ".sendMsg", function() {
+      var sendWhatsup = $.trim($('#sendWhatsup').val());
+      if (sendWhatsup != "") {
+        var userDomain = window.location.href;
+        var url = "https://api.whatsapp.com/send?phone=" + sendWhatsup + "&text=" + userDomain;
+        window.open(url, '_blank');
+      }
+    });
+  </script>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/magnific.js"></script>
+    <script src="js/image-loaded.js"></script>
+    <script src="js/nice-select.js"></script>
+    <script src="js/slick-slider.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/waypoint.js"></script>
+    <script src="js/ripple.js"></script>
+    <script src="js/counterup.js"></script>
+  <script src="https://kit.fontawesome.com/0d403149d2.js" crossorigin="anonymous"></script>
+  <!-- main js  -->
+
+</body>
+
+<!-- Mirrored from s7template.com/tf/prooland/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Apr 2021 12:43:33 GMT -->
+
+</html>

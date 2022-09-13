@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("flaticon9520.ttf?191b68652e65cd798af1d069c5e181c8") format("truetype"),
+url("flaticon9520.woff?191b68652e65cd798af1d069c5e181c8") format("woff"),
+url("flaticon9520.woff2?191b68652e65cd798af1d069c5e181c8") format("woff2"),
+url("flaticon9520.eot?191b68652e65cd798af1d069c5e181c8#iefix") format("embedded-opentype"),
+url("flaticon9520.svg?191b68652e65cd798af1d069c5e181c8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-ads:before {
+    content: "\f101";
+}
+.flaticon-database-1:before {
+    content: "\f102";
+}
+.flaticon-database:before {
+    content: "\f103";
+}
+.flaticon-email:before {
+    content: "\f104";
+}
+.flaticon-laptop:before {
+    content: "\f105";
+}
+.flaticon-message-on-phone:before {
+    content: "\f106";
+}
+.flaticon-microphone:before {
+    content: "\f107";
+}
+.flaticon-office-building:before {
+    content: "\f108";
+}
+.flaticon-server:before {
+    content: "\f109";
+}
+.flaticon-smartphone:before {
+    content: "\f10a";
+}
+.flaticon-software:before {
+    content: "\f10b";
+}
+.flaticon-tax:before {
+    content: "\f10c";
+}
+.flaticon-video-marketing:before {
+    content: "\f10d";
+}

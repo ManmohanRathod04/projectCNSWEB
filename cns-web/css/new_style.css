@@ -1,0 +1,2160 @@
+.gradient2 {
+    background: rgba(255, 165, 0,.9);
+   
+}
+
+.mart35 {
+    margin-top: 35px
+}
+
+.marb0 {
+    margin-bottom: 0 !important
+}
+
+.mary20 {
+    margin: 20px 0
+}
+
+.padb75 {
+    padding-bottom: 75px
+}
+
+.padb10 {
+    padding-bottom: 10px
+}
+
+.padl15 {
+    padding-left: 15px
+}
+
+.padl45 {
+    padding-left: 45px
+}
+
+.mar15 {
+    margin: 15px
+}
+
+.padx15 {
+    padding: 0 15px
+}
+
+.padr60 {
+    padding-right: 60px
+}
+
+.padx60 {
+    padding: 0 60px
+}
+
+.d-inline {
+    display: inline-block
+}
+
+.padl30 {
+    padding-left: 30px
+}
+
+.padr30 {
+    padding-right: 30px
+}
+
+.headershard{
+ 
+    height: 78vh;
+}
+
+.padt30 {
+    /* height: 80vh; */
+    padding-top: 30px
+}
+
+.padb35 {
+    padding-bottom: 35px
+}
+
+.font30 {
+    font-size  : 30px;
+    font-weight: 600
+}
+
+.padb25 {
+    padding-bottom: 25px
+}
+
+.gradient7 {
+    background: url('../img/award.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background: #000428; */
+    /* background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428) */
+}
+
+.gradient7-overcolor{
+    background:rgba(0, 4, 40,.7) ;
+    margin: -47px 0;
+    width: 100%;
+
+}
+
+.whyAndroid{
+    background: url('../img/award.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.whyAndroid-overcolor{
+    background:rgba(0, 4, 40,.7) ;
+    margin: -47px 0;
+    height: 27rem;
+    margin-bottom: -75px;
+    width: 100%;
+}
+
+.gradient8 {
+    background: #1e3c72;
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
+    background: linear-gradient(to right, #2a5298, #1e3c72)
+}
+
+.gradient9 {
+    background: #00bf8f;
+    background: -webkit-linear-gradient(to left, #001510, #00bf8f);
+    background: linear-gradient(to left, #001510, #00bf8f)
+}
+
+.gradient10 {
+    background: #2c3e50;
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+    background: linear-gradient(to right, #2c3e50, #3498db)
+}
+
+.font35 {
+    font-size: 35px !important
+}
+
+.marr15 {
+    margin-right: 15px
+}
+
+.font18 {
+    font-size: 18px
+}
+
+.font36 {
+    font-size: 36px !important
+}
+
+.fonth6 {
+    font-size  : 19px;
+    font-weight: 600
+}
+
+.padr0 {
+    padding-right: 0
+}
+
+.left12 {
+    left: 12% !important
+}
+
+.h-250 {
+    height: 270px !important
+}
+
+.h-410 {
+    height: 410px !important
+}
+
+.font-15 {
+    font-size: 15px
+}
+
+.text_p {
+    font-size  : 18px;
+    line-height: 27px
+}
+
+.brd_right {
+    border-right: 2px solid #ff6364
+}
+
+.platform-text {
+    color         : #004e92;
+    letter-spacing: 1.5px;
+    font-size     : 40px;
+    font-weight   : 600
+}
+
+.d-none {
+    display: none
+}
+
+.content_img {
+    margin-left: 10px
+}
+
+.img_content {
+    width     : 45px;
+    margin-top: 5px
+}
+
+h3,
+p {
+    margin: 0
+}
+
+.app_development_text h2 {
+    font-size  : 30px;
+    font-family: poppins, sans-serif;
+    font-weight: 600
+}
+
+.img_content_row {
+    margin-top   : 25px;
+    margin-bottom: 25px
+}
+
+.fonth1 {
+    font-size  : 54px;
+    line-height: 65px;
+    font-weight: 600;
+    font-family: poppins, sans-serif
+}
+
+.recognition_img img {
+    height : 90px;
+    padding: 10px
+}
+
+.recognitionh3 {
+    font-size  : 24px;
+    font-weight: 600;
+    margin     : 35px 0 15px
+}
+
+.minheight720 {
+    min-height: 720px !important
+}
+
+.android_header_btn {
+    padding     : 8px 21px;
+    margin-right: 25px;
+    font-size   : 14px
+}
+
+.text-red-app {
+    color: #0085ad;
+}
+.text-red-app2{
+    color: #ffa500;
+}
+.mart19 {
+    margin-top: 19px
+}
+
+.marr45 {
+    margin-right: 45px
+}
+
+.fonth4 {
+    font-size  : 36px;
+    font-weight: 600;
+    font-family: poppins, sans-serif
+}
+
+.lspace1 {
+    letter-spacing: 1px
+}
+
+.fonth5 {
+    font-size  : 22px;
+    margin-top : 15px;
+    font-weight: 600
+}
+
+.range_box {
+    border       : 1px solid #ffa500;
+    padding      : 10px 20px 10px 45px;
+    box-shadow   : 2px 2px 2px 2px #ddd;
+    border-radius: 3px;
+    height       : 130px;
+    
+}
+
+.range_box h6 {
+    font-size    : 19px;
+    font-weight  : 600;
+    margin-bottom: 5px
+}
+
+.range_img {
+    position     : absolute;
+    top          : 50%;
+    background   : #fff;
+    border       : 1px solid #ffa500;
+    padding      : 10px;
+    box-shadow   : 2px 2px 2px 2px #ddd;
+    border-radius: 3px
+}
+
+.range_img_pos2 {
+    left     : 2%;
+    transform: translate(-2%, -50%)
+}
+
+.range_img_pos1 {
+    left     : -8%;
+    transform: translate(8%, -50%)
+}
+
+.range_img img {
+    width: 43px
+}
+
+.font-15 {
+    font-size: 15px
+}
+
+.range_box:hover {
+   color: #fff;
+   background-color: #000;
+   border: 1px solid #000;
+    
+}
+
+
+.range_box:hover .range_img {
+    box-shadow: none
+}
+
+.range_padding1 {
+    padding   : 0 45px 0 0;
+    margin-top: 30px
+}
+
+.range_padding2 {
+    padding   : 0 0 0 45px;
+    margin-top: 30px
+}
+
+.native_box h4 {
+    font-size  : 26px;
+    font-weight: 600;
+    margin-top : 45px;
+    line-height: 32px
+}
+
+.range-padding {
+    padding-left : 75px;
+    padding-right: 75px
+}
+
+.our_values_img:hover {
+    transform : scale(1.2);
+    transition: .5s ease-in-out;
+    box-shadow: rgba(255, 165, 0, 0.8) 0px 2px 4px 0px, rgba(255, 165, 0, .8) 0px 2px 16px 0px;
+    border-radius:10px ;
+    color: #fff;
+
+}
+
+body .slick-slide .slide-content {
+    width: 100%
+}
+
+#slick-carousel1 .slick-list {
+    margin: 20px 0
+}
+
+#slick-carousel1 .slick-prev,
+#slick-carousel1 .slick-next {
+    position  : absolute;
+    top       : 96%;
+    right     : 85%;
+    background: 0 0;
+    border    : 2px solid # !important;
+    color     : #1866b1;
+    width     : 25px;
+    height    : 25px
+}
+
+#slick-carousel1 .slick-prev {
+    left: 3%
+}
+
+#slick-carousel1 .slick-next {
+    margin-top: 3.8%
+}
+
+body .slick-dots {
+    list-style: none;
+    margin    : 0 auto;
+    text-align: center
+}
+
+body .slick-dots li {
+    display: inline-block
+}
+
+body .slick-dots li button {
+    transition      : .2s background-color ease-in-out 0s;
+    border          : 0;
+    padding         : 0;
+    color           : #1866b1;
+    width           : 10px;
+    height          : 10px;
+    background-color: #777;
+    margin-right    : 10px;
+    border-radius   : 50%
+}
+
+body .slick-dots li.slick-active button {
+    background-color: #fff
+}
+
+#slick-carousel1 .slide-content img {
+    width : 134px;
+    height: 90px
+}
+
+#slick-carousel2 .slick-prev,
+#slick-carousel2 .slick-next {
+    background: 0 0;
+    border    : 0;
+    margin-top: 0
+}
+
+#slick-carousel2 .slick-prev:before,
+#slick-carousel2 .slick-next:before {
+    color: #fff
+}
+
+.marl30 {
+    margin-left: 30px
+}
+
+.mart0 {
+    margin-top: 0 !important
+}
+
+.dedicated_android {
+    padding       : 10px 15px;
+    font-size     : 17px;
+    text-transform: none
+}
+
+.development_process {
+    height       : 250px;
+    border-radius: 10px;
+    padding      : 20px;
+    margin       : 30px;
+    background: #fff;
+    box-shadow: rgba(255, 165, 0, 0.48) 6px 2px 16px 0px, rgba(255, 165, 0, 0.8) -6px -2px 16px 0px;
+ 
+}
+
+.development_process:hover {
+    /* border: 1px dashed #ff6364; */
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 -50%, #009ffd 74%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.development_process h4 {
+    font-size  : 34px;
+    font-weight: 600
+}
+
+.development_process p {
+    font-size  : 22px;
+    font-weight: 600
+}
+
+.award_border {
+    left     : 44%;
+    transform: translate(-50%, -50%)
+}
+
+.award_border5 {
+    left     : 54%;
+    transform: translate(-50%, -50%)
+}
+
+.award_line {
+    width        : 50px;
+    border-bottom: 5px solid #1866b1;
+    border-radius: 15px;
+    position     : absolute;
+    margin-top   : 10px
+}
+
+.award_border1 {
+    left     : 47%;
+    transform: translate(-50%, -50%)
+}
+
+.award_border2 {
+    left     : 49%;
+    transform: translate(-50%, -50%)
+}
+
+.award_border3 {
+    left     : 51%;
+    transform: translate(-50%, -50%)
+}
+
+.stack_bg {
+    width     : 200px;
+    height    : 78px;
+    text-align: center;
+    background: #f3558e;
+    color     : #fff
+}
+
+
+.stack_border_box {
+    width : 100%;
+    height: 80px;
+    border: 1px solid #f3558e;
+    background: linear-gradient(to right, #f3558e 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all .7s ease-out;
+}
+
+.stack_border_box:hover{
+
+    border: 1px solid #f3558e;
+    background-position: bottom left;
+    color: #fff;
+}
+.stack_content {
+    line-height: 80px;
+    font-size  : 22px
+}
+
+.padt10 {
+    padding-top: 10px
+}
+
+.bottom_border6 {
+    position                  : absolute;
+    top                       : 50px;
+    right                     : 60px;
+    border-bottom             : 2px solid #ffa500;
+    border-right              : 2px solid #ffa500;
+    display                   : inline-block;
+    height                    : 85px;
+    width                     : 85px;
+    border-bottom-right-radius: 5px
+}
+
+.bottom_border5 {
+    position              : absolute;
+    top                   : -10px;
+    left                  : 60px;
+    border-top            : 2px solid #ffa500;
+    border-left           : 2px solid #ffa500;
+    display               : inline-block;
+    height                : 85px;
+    width                 : 85px;
+    border-top-left-radius: 5px
+}
+
+.android_app_row h6 {
+    color      : #fff;
+    font-size  : 20px;
+    font-weight: 600
+}
+
+.android_app_row h5 {
+    color      : #fff;
+    font-size  : 40px;
+    font-weight: 600
+}
+
+.android_app_row span {
+    font-size  : 36px;
+    font-weight: 600;
+    color      : #fff
+}
+
+.stack_border_box span {
+    font-size  : 19px;
+    font-weight: 600
+}
+
+.lheight48 {
+    line-height: 48px
+}
+
+.btn-android {
+    background   : #1866b1;
+    color        : #fff;
+    padding      : 15px;
+    border-radius: 0;
+    font-size    : 16px;
+    margin-top   : 30px
+}
+
+.btn-android:hover {
+    color: #fff
+}
+
+.clientSpeakSection {
+    /* background     : #062b44; */
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    position       : relative;
+    min-height     : 680px
+}
+
+.client-hed {
+    color      : #fff !important;
+    text-align : center;
+    font-size  : 37px;
+    margin     : 0;
+    font-weight: 600
+}
+
+.client-titles {
+    color        : #fff !important;
+    font-size    : 20px;
+    font-family  : poppins, sans-serif;
+    text-align   : center;
+    margin-top   : 15px;
+    margin-bottom: 15px
+}
+
+.clints-reviews {
+    background-color: #fff;
+    width           : 100%;
+    border-radius   : .2em;
+    height          : 246px
+}
+
+.discription-height {
+    height       : 92px !important;
+    margin-bottom: 10px !important;
+    padding      : 0 10px
+}
+
+.tm-project-discription {
+    height       : 120px;
+    overflow-y   : auto;
+    margin-bottom: 15px
+}
+
+.clientspeakprofile {
+    width     : 100%;
+    margin    : auto;
+    text-align: center
+}
+
+.clientspeakprofile .title {
+    color    : grey;
+    font-size: 16px
+}
+
+.clientspeakprofile button {
+    border                    : 0;
+    outline                   : 0;
+    display                   : inline-block;
+    padding                   : 10px 8px;
+    color                     : #fff;
+    background-color          : #1866b1;
+    text-align                : center;
+    width                     : 100%;
+    font-size                 : 18px;
+    min-height                : 57px;
+    max-height                : 57px;
+    border-bottom-left-radius : 5px;
+    border-bottom-right-radius: 5px
+}
+
+.clientspeakprofile a {
+    text-decoration: none;
+    font-size      : 22px;
+    color          : #000
+}
+
+.clientspeakprofile .clientbottom a {
+    background-color: #fff;
+    padding         : 5px;
+    border-radius   : 5px
+}
+
+.imgSectionPortfolio {
+    line-height   : 100px;
+    vertical-align: middle;
+    display       : inline-block
+}
+
+.clientbottom {
+    display: inline-flex
+}
+
+.clientview {
+    color      : #000;
+    margin-left: 55px;
+    position   : relative;
+    bottom     : 8px;
+    cursor     : pointer
+}
+
+.clientbottom a {
+    text-decoration: none
+}
+
+.clientview h5 {
+    font-size : 17px;
+    color     : #fff;
+    margin-top: 0;
+    position  : relative;
+    top       : 2px
+}
+
+.contetBox {
+    border-bottom-left-radius : 14px;
+    border-bottom-right-radius: 14px;
+    position                  : relative;
+    top                       : -20px
+}
+
+.clientSpeakSection .card:not([class*=card-outline-]) {
+    box-shadow: none
+}
+
+.gradient_android {
+    background: #2980b9;
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #2980b9);
+    background: linear-gradient(to bottom, #2c3e50, #2980b9)
+}
+
+.industries_cater ul li a,
+.development_spreads ul li a {
+    color          : #fff;
+    text-decoration: none
+}
+
+.industries_cater ul li a:hover,
+.development_spreads ul li a:hover {
+    color          : #ff6364;
+    text-decoration: none
+}
+
+.industries_cater ul {
+    margin-top: 30px
+}
+
+.development_spreads ul li {
+    list-style: disc;
+    color     : #fff
+}
+
+.blog-section {
+    padding: 0 0 20px
+}
+
+.blog-shadow {
+    box-shadow      : 0 20px 23px -5px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius   : 10px;
+    margin-bottom   : 30px
+}
+
+.blog-section-content img {
+    border-top-left-radius : 10px;
+    border-top-right-radius: 10px;
+    width                  : 100%;
+    height                 : 190px
+}
+
+.blog-section-text {
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-size     : 40px;
+    font-weight   : 600;
+    font-family   : poppins, sans-serif;
+    color         : #000
+}
+
+.blog-section .blue-new-btn {
+    margin-top: 30px;
+    padding   : 12px 45px
+}
+
+.blog-section-heading {
+    width     : 100%;
+    min-height: 300px
+}
+
+.blog-section-content .overlay-box {
+    box-shadow      : 0 20px 23px -5px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius   : 10px;
+    overflow        : hidden
+}
+
+.post-title::before {
+    transition: all .3s ease-out 0s
+}
+
+.blog-section-img {
+    width                  : 100%;
+    border-top-left-radius : 10px;
+    border-top-right-radius: 10px
+}
+
+.block-date {
+    min-width                : 100px;
+    padding                  : 32px 10px;
+    font-weight              : 600;
+    border-bottom-left-radius: 10px;
+    color                    : #fff;
+    text-transform           : uppercase;
+    min-width                : 100px;
+    flex-direction           : column;
+    align-items              : center;
+    justify-content          : center;
+    background               : #1866b1
+}
+
+.blogPage:hover {
+    cursor: pointer
+}
+
+.block-date .block-day {
+    font-size  : 35px;
+    line-height: 35px
+}
+
+.block-date .block-month {
+    font-size : 15px;
+    display   : block;
+    margin-top: 5px
+}
+
+.block-text-box {
+    padding : 5px 20px;
+    z-index : 1;
+    width   : 100%;
+    position: relative
+}
+
+.block-text-box h3 {
+    font-size  : 17px;
+    text-align : left;
+    line-height: 24px;
+    cursor     : pointer;
+    margin-top : 10px;
+    font-weight: 600;
+    font-family: poppins, sans-serif
+}
+
+.blog-section-heading {
+    padding: 40px 0
+}
+
+.block-text-box::before {
+    background-color          : #eee;
+    width                     : 0;
+    height                    : 100%;
+    display                   : inline-block;
+    content                   : "";
+    position                  : absolute;
+    left                      : 0;
+    top                       : 0;
+    z-index                   : -1;
+    border-bottom-right-radius: 10px;
+    transition                : all .3s ease-out 0s
+}
+
+.block-text-box:hover:before {
+    width     : 100%;
+    transition: all .3s ease-out 0s
+}
+
+.block-text-box a {
+    text-decoration: none
+}
+
+.blog-section-block {
+    display       : flex;
+    flex-direction: row;
+    flex-wrap     : nowrap
+}
+
+.blog-section .blue-new-btn {
+    margin-top: 30px;
+    padding   : 12px 45px
+}
+
+.blog-section .bulebtn-text a {
+    font-size: 16px !important
+}
+
+.btn-android:hover {
+    background: #ff6364
+}
+
+.our_values p {
+    padding: 10px 45px
+}
+
+.casestudy .slick-prev,
+.casestudy .slick-next {
+    background-color: rebeccapurple;
+    border          : 0 !important
+}
+
+.casestudy .slick-prev:before,
+.casestudy .slick-next:before {
+    color: #fff !important
+}
+
+.java_image img {
+    width : 45px;
+    height: 45px
+}
+
+.industries_cater a {
+    font-size: 18px
+}
+
+.explore_work_text {
+    color: #000
+}
+
+.explore_work_text:hover {
+    color: #ff6364
+}
+
+.our_values h3 {
+    font-size  : 28px;
+    font-weight: 600
+}
+
+.services_circle_img {
+    text-align   : center;
+    box-shadow   : inset -4px -3px 13px 8px #ddd;
+    padding      : 15px;
+    border-radius: 50%;
+    width        : 80px;
+    position     : relative;
+    left         : 50%;
+    transform    : translate(-50%, 0%)
+}
+
+.dashed_border {
+    padding      : 20px;
+    margin-bottom: 30px;
+    height       : 320px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #f3558e 50%, #fff 50%);
+    background-size: 100% 200%;
+    background-position: top left;
+    transition: all .7s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dashed_border:hover {
+    background-position: bottom left;
+    color: #fff;
+}
+
+.accompany_img {
+    width        : 120px;
+    height       : 120px;
+    background   : #0abf53;
+    position     : relative;
+    left         : 50%;
+    transform    : translate(-50%, 0);
+    border-radius: 15px
+}
+
+.accompany_img img {
+    position : absolute;
+    left     : 50%;
+    top      : 50%;
+    transform: translate(-50%, -50%)
+}
+
+.accompany_img:hover {
+    background: #fff;
+    box-shadow: 0 0 7px #ccc
+}
+
+.accompany_circle {
+    width : 20px;
+    height: 20px
+}
+
+.award_circle {
+    width        : 10px;
+    border-bottom: 10px solid #FFA500;
+    border-radius: 15px;
+    position     : absolute;
+    margin-top   : 7px;
+    left         : 50%;
+    transform    : translate(-50%, 0);
+    z-index      : 1
+}
+
+.accompany_border {
+    border-bottom: 2px solid #004e92;
+    position     : relative;
+    width        : 380px;
+    top          : 180px;
+    left         : 102px
+}
+
+.accompany_img:hover .award_circle {
+    border-bottom: 10px solid #ff6364
+}
+
+.accompany_img1 {
+    background: url("../img/iphone/objective-c1.png")no-repeat
+}
+
+.accompany_img:hover .accompany_img1 {
+    background: url('../img/iphone/objective-c.png')no-repeat
+}
+
+.acc_swift {
+    background: url("../img/iphone/swift_white.png")no-repeat
+}
+
+.accompany_img:hover .acc_swift {
+    background: url("../img/iphone/swift.png")no-repeat
+}
+
+.acc_codex {
+    background: url("../img/iphone/xcidewhite.png")no-repeat
+}
+
+.accompany_img:hover .acc_codex {
+    background: url("../img/iphone/xcode_o1.png")no-repeat
+}
+
+.acc_flutter {
+    background: url("../img/iphone/flutte2.png")no-repeat
+}
+
+.accompany_img:hover .acc_flutter {
+    background: url('../img/iphone/flutte1.png')no-repeat
+}
+
+.acc_nodejs {
+    background: url("../img/iphone/nodejs1.png")no-repeat
+}
+
+.accompany_img:hover .acc_nodejs {
+    background: url("../img/iphone/nodejs2.png")no-repeat
+}
+
+.acc_react {
+    background: url("../img/iphone/react-native2.png")no-repeat
+}
+
+.accompany_img:hover .acc_react {
+    background: url("../img/iphone/react-native1.png")no-repeat
+}
+
+.acc_ionic {
+    background: url("../img/iphone/ionic1.png")no-repeat
+}
+
+.accompany_img:hover .acc_ionic {
+    background: url("../img/iphone/ionic2.png")no-repeat
+}
+
+.acc_phonegap {
+    background: url("../img/iphone/phonegap1.png")no-repeat
+}
+
+.accompany_img:hover .acc_phonegap {
+    background: url("../img/iphone/phonegap2.png")no-repeat
+}
+
+.technology_house .dashed {
+    border       : 2px dashed #F3558E;
+    width        : 20%;
+    height       : 80px;
+    line-height  : 80px;
+    border-radius: 10px;
+    font-weight  : 600;
+    background: linear-gradient(to right, #F3558E 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all .7s ease-out;
+}
+
+.technology_house .dashed:hover{
+    border: 2px dashed #F3558E;
+    background-position: bottom left;
+    color: #fff;
+    border-left:  none;
+    border-right: none;
+}
+.technology_house .fa {
+    font-weight: 700;
+    font-size  : 25px;
+    color      : #e1144d;
+    margin     : 0 20px;
+    position   : relative;
+    transform  : translate(0%, 35%)
+}
+
+.technology_house .style {
+    width        : 100%;
+    height       : 80px;
+    line-height  : 80px;
+    border-radius: 10px;
+    font-size    : 24px;
+    font-weight  : 600
+}
+
+.accompany_feature {
+    width    : 70px;
+    height   : 68px;
+    position : relative;
+    left     : 50%;
+    top      : 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+.hover_brd {
+    position     : relative;
+    display      : inline-block;
+    cursor       : pointer;
+    width        : 90px;
+    height       : 90px;
+    border-radius: 50%;
+    text-align   : center;
+    z-index      : 1;
+    color        : #fff
+}
+
+
+.hover_brd:after {
+    position      : absolute;
+    pointer-events: none;
+    width         : 100%;
+    height        : 100%;
+    border-radius : 50%;
+    content       : '';
+    box-sizing    : content-box
+}
+
+.hoverbrd_effect .hover_brd {
+    background: #fff;
+    transition: background .2s, color .2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hoverbrd_effect .hover_brd:after {
+    top       : -7px;
+    left      : -7px;
+    padding   : 7px;
+    box-shadow: 0 0 0 4px #0abf53;
+    transition: transform .2s, opacity .2s;
+    transform : scale(.8);
+    opacity   : 0;
+}
+
+.no-touch .hoverbrd_effect1 .hover_brd:hover {
+    background: #0abf53;
+}
+
+.no-touch .hoverbrd_effect1 .hover_brd:hover:after {
+    transform: scale(1);
+    opacity  : 1
+}
+
+.no-touch .hoverbrd_effect1b .hover_brd:hover {
+    background: #ff6364;
+    color     : #333
+}
+
+.hoverbrd_effect1b .hover_brd:after {
+    transform: scale(1.2)
+}
+
+.no-touch .hoverbrd_effect1b .hover_brd:hover:after {
+    transform: scale(1);
+    opacity  : 1
+}
+
+.web_app {
+    background     : url("../img/web-app/web-app.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .web_app {
+    background     : url("../img/web-app/web-app_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.framework_d {
+    background     : url("../img/web-app/framework.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .framework_d {
+    background     : url("../img/web-app/framework_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.front_end {
+    background     : url("../img/web-app/front-end.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .front_end {
+    background     : url("../img/web-app/front-end_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.open_source {
+    background     : url("../img/web-app/open-source.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .open_source {
+    background     : url("../img/web-app/open-source_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.e-commerce {
+    background     : url("../img/web-app/e-cpmmerce-cms.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .e-commerce {
+    background     : url("../img/web-app/e-cpmmerce-cms_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.web-portal {
+    background     : url("../img/web-app/web-portal.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .web-portal {
+    background     : url("../img/web-app/web-portal_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.custom-web {
+    background     : url("../img/web-app/custom.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .custom-web {
+    background     : url("../img/web-app/custom_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.enterprise-web {
+    background     : url("../img/web-app/enterprise.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .enterprise-web {
+    background     : url("../img/web-app/enterprise_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.support-web {
+    background     : url("../img/web-app/support.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .support-web {
+    background     : url("../img/web-app/support_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.proccess_feature {
+    width : 70px;
+    height: 68px;
+    margin: 0 auto
+}
+
+.discover {
+    background: url(../img/android/discover1.png) no-repeat;
+    overflow  : hidden
+}
+
+.development_process:hover .discover {
+    background        : url(../img/android/discover1_red.png) no-repeat;
+    overflow          : hidden;
+    -webkit-transition: background .3s, color .3s, box-shadow .3s;
+    -moz-transition   : background .3s, color .3s, box-shadow .3s;
+    transition        : background .3s, color .3s, box-shadow .3s;
+    -webkit-animation : toLeftFromRight .3s forwards;
+    -moz-animation    : toLeftFromRight .3s forwards;
+    animation         : toLeftFromRight .3s forwards
+}
+
+.define_p {
+    background: url(../img/android/define.png) no-repeat;
+    overflow  : hidden
+}
+
+.development_process:hover .define_p {
+    background        : url(../img/android/define_red.png) no-repeat;
+    overflow          : hidden;
+    -webkit-transition: background .3s, color .3s, box-shadow .3s;
+    -moz-transition   : background .3s, color .3s, box-shadow .3s;
+    transition        : background .3s, color .3s, box-shadow .3s;
+    -webkit-animation : toLeftFromRight .3s forwards;
+    -moz-animation    : toLeftFromRight .3s forwards;
+    animation         : toLeftFromRight .3s forwards
+}
+
+.design_p {
+    background: url(../img/android/design.png) no-repeat;
+    overflow  : hidden
+}
+
+.development_process:hover .design_p {
+    background        : url(../img/android/design_red.png) no-repeat;
+    overflow          : hidden;
+    -webkit-transition: background .3s, color .3s, box-shadow .3s;
+    -moz-transition   : background .3s, color .3s, box-shadow .3s;
+    transition        : background .3s, color .3s, box-shadow .3s;
+    -webkit-animation : toLeftFromRight .3s forwards;
+    -moz-animation    : toLeftFromRight .3s forwards;
+    animation         : toLeftFromRight .3s forwards
+}
+
+.develop_p {
+    background: url(../img/android/develop.png) no-repeat;
+    overflow  : hidden
+}
+
+.development_process:hover .develop_p {
+    background        : url(../img/android/develop_red.png) no-repeat;
+    overflow          : hidden;
+    -webkit-transition: background .3s, color .3s, box-shadow .3s;
+    -moz-transition   : background .3s, color .3s, box-shadow .3s;
+    transition        : background .3s, color .3s, box-shadow .3s;
+    -webkit-animation : toLeftFromRight .3s forwards;
+    -moz-animation    : toLeftFromRight .3s forwards;
+    animation         : toLeftFromRight .3s forwards
+}
+
+.deliver_p {
+    background: url(../img/android/deliver.png) no-repeat;
+    overflow  : hidden
+}
+
+.development_process:hover .deliver_p {
+    background        : url(../img/android/deliver_red.png) no-repeat;
+    overflow          : hidden;
+    -webkit-transition: background .3s, color .3s, box-shadow .3s;
+    -moz-transition   : background .3s, color .3s, box-shadow .3s;
+    transition        : background .3s, color .3s, box-shadow .3s;
+    -webkit-animation : toLeftFromRight .3s forwards;
+    -moz-animation    : toLeftFromRight .3s forwards;
+    animation         : toLeftFromRight .3s forwards
+}
+
+.support_p {
+    background: url(../img/android/support11.png) no-repeat;
+    overflow  : hidden
+}
+
+.development_process:hover .support_p {
+    background        : url(../img/android/support11_red.png) no-repeat;
+    overflow          : hidden;
+    -webkit-transition: background .3s, color .3s, box-shadow .3s;
+    -moz-transition   : background .3s, color .3s, box-shadow .3s;
+    transition        : background .3s, color .3s, box-shadow .3s;
+    -webkit-animation : toLeftFromRight .3s forwards;
+    -moz-animation    : toLeftFromRight .3s forwards;
+    animation         : toLeftFromRight .3s forwards
+}
+
+@-webkit-keyframes toLeftFromRight {
+    49% {
+        -webkit-transform: translate(10%)
+    }
+
+    50% {
+        opacity          : 0;
+        -webkit-transform: translate(-10%)
+    }
+
+    51% {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes toLeftFromRight {
+    49% {
+        -moz-transform: translate(10%)
+    }
+
+    50% {
+        opacity       : 0;
+        -moz-transform: translate(-10%)
+    }
+
+    51% {
+        opacity: 1
+    }
+}
+
+@keyframes toLeftFromRight {
+    49% {
+        transform: translate(10%)
+    }
+
+    50% {
+        transform: translate(-10%)
+    }
+}
+
+.app_test {
+    background     : url("../img/android/test.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .app_test {
+    background     : url("../img/iphone/test_white.html")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.native_iphone {
+    background     : url("../img/android/native.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .native_iphone {
+    background     : url("../img/iphone/native_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hybrid_iphone_app {
+    background     : url("../img/android/hybrid.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .hybrid_iphone_app {
+    background     : url("../img/iphone/hybrid_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.iphone_app {
+    background     : url("../img/iphone/smartphone.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .iphone_app {
+    background     : url("../img/iphone/smartphone_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.iphone_game {
+    background     : url("../img/android/game.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .iphone_game {
+    background     : url("../img/iphone/game_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.iphone_ui {
+    background     : url("../img/android/ui.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .iphone_ui {
+    background     : url("../img/iphone/ui_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.enterprise_iphone {
+    background     : url("../img/android/enterprise.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .enterprise_iphone {
+    background     : url("../img/iphone/enterprise_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.consumer_iphone {
+    background     : url("../img/android/userapp.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .consumer_iphone {
+    background     : url("../img/iphone/userapp_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.app_support {
+    background     : url("../img/android/support11.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .app_support {
+    background     : url("../img/iphone/support11_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.core_benifit_ul {
+    padding-left: 10px;
+    margin-top  : 30px
+}
+
+.add_value_content h3 {
+    font-size  : 30px;
+    font-weight: 600
+}
+
+.add_value_content p {
+    font-size    : 20px;
+    margin-top   : 15px;
+    margin-bottom: 20px
+}
+
+.core_benifit_ul li::before {
+    content          : "";
+    background       : url(../img/recent/logo/green-icon-tick1.png) 0 0 no-repeat;
+    display          : inline-block;
+    width            : 15px;
+    height           : 15px;
+    background-repeat: no-repeat;
+    background-size  : 100%;
+    margin           : 0 10px
+}
+
+.php_mobile {
+    background     : url("../img/php/php-mobile-web.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .php_mobile {
+    background     : url("../img/php/php-mobile-web_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.php_backend {
+    background     : url("../img/php/backend.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .php_backend {
+    background     : url("../img/php/backend_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.social_networking {
+    background     : url("../img/php/social-media.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .social_networking {
+    background     : url("../img/php/social-media_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.php_ecommerce {
+    background     : url("../img/php/ecommerce.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .php_ecommerce {
+    background     : url("../img/php/ecommerce_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.crm_integration {
+    background     : url("../img/php/crm.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .crm_integration {
+    background     : url("../img/php/crm_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.app_development {
+    background     : url("../img/php/framewrok.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .app_development {
+    background     : url("../img/php/framewrok_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.cloud_strategy {
+    background     : url("../img/cloud/cloud-strategy.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .cloud_strategy {
+    background     : url("../img/cloud/cloud-strategy_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.cloud_app {
+    background     : url("../img/cloud/cloudd-application.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .cloud_app {
+    background     : url("../img/cloud/cloudd-application_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.cloud_migration {
+    background     : url("../img/cloud/cloud-migrating.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .cloud_migration {
+    background     : url("../img/cloud/cloud-migrating_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.cloud_security {
+    background     : url("../img/cloud/cloud-security.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .cloud_security {
+    background     : url("../img/cloud/cloud-security_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.cloud_management {
+    background     : url("../img/cloud/cloud-management.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .cloud_management {
+    background     : url("../img/cloud/cloud-management_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.cloud_ai {
+    background     : url("../img/cloud/cloud-ai.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .cloud_ai {
+    background     : url("../img/cloud/cloud-ai_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.scalability {
+    background     : url("../img/cloud/scalable.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .scalability {
+    background     : url("../img/cloud/scalable_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.reduce_initial {
+    background     : url("../img/cloud/cost.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .reduce_initial {
+    background     : url("../img/cloud/cost_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.data_security {
+    background     : url("../img/cloud/data-security.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .data_security {
+    background     : url("../img/cloud/data-security_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.boost_operational {
+    background     : url("../img/cloud/boost.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.hover_brd:hover .boost_operational {
+    background     : url("../img/cloud/boost_white.png")no-repeat;
+    background-size: 50px 50px;
+    margin         : 6px
+}
+
+.crossblockborderleft {
+    position     : relative;
+    border       : 1px solid #FAA500;
+    margin       : 30px;
+    border-radius: 3px;
+    padding      : 10px 50px;
+    box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+.crossblockborderright {
+    position     : relative;
+    border       : 1px solid #FAA500;
+    border-radius: 3px;
+    margin       : 30px;
+    padding      : 10px 50px; 
+    box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+.crossblockborderleft:hover{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.crossblockborderright:hover{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+
+.icon_common_css {
+    background-repeat: no-repeat;
+    border           : 1px solid #FAA500;
+    border-radius    : 3px;
+    position         : absolute;
+    width            : 70px;
+    height           : 70px;
+    top              : 50%;
+    transform        : translate(0px, -50%);
+    /* box-shadow: 2px 2px 2px 2px #ddd; */
+}
+
+.crossblockicon1 {
+    background         : url(../img/cross/multi-platform.png) no-repeat;
+    right              : -35px;
+    background-position: center;
+    background-color   : #fff;
+    background-size    : 50px 50px
+}
+
+.crossblockicon1:hover {
+    background         : url(../img/cross/multi-platform_white.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-color   : #0abf53;
+    background-size    : 50px 50px
+}
+
+.crossblockicon3 {
+    background         : url(../img/cross/all-developemtn.png) no-repeat;
+    left               : -35px;
+    background-position: center;
+    background-color   : #fff;
+    background-size    : 50px 50px
+}
+
+.crossblockicon3:hover {
+    background         : url(../img/cross/all-developemtn_white.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-color   : #0abf53;
+    background-size    : 50px 50px
+}
+
+.crossblockicon5 {
+    background         : url(../img/cross/app-testing.png) no-repeat;
+    left               : -35px;
+    background-position: center;
+    background-color   : #fff;
+    background-size    : 50px 50px
+}
+
+.crossblockicon5:hover {
+    background         : url(../img/cross/app-testing_white.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-color   : #0abf53;
+    background-size    : 50px 50px
+}
+
+.crossblockicon7 {
+    background         : url(../img/cross/app-maintanance.png) no-repeat;
+    left               : -35px;
+    background-position: center;
+    background-color   : #fff;
+    background-size    : 50px 50px
+}
+
+.crossblockicon7:hover {
+    background         : url(../img/cross/app-maintanance_white.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-color   : #0abf53;
+    background-size    : 50px 50px
+}
+
+.crossblockicon2 {
+    background         : url(../img/cross/end-to-end.png) no-repeat;
+    right              : -35px;
+    background-position: center;
+    background-color   : #fff;
+    background-size    : 50px 50px
+}
+
+.crossblockicon2:hover {
+    background         : url(../img/cross/end-to-end_white.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-color   : #0abf53;
+    background-size    : 50px 50px
+}
+
+.crossblockicon4 {
+    background         : url(../img/cross/cross-ui-ux.png) no-repeat;
+    right              : -35px;
+    background-position: center;
+    background-color   : #fff;
+    background-size    : 50px 50px
+}
+
+.crossblockicon4:hover {
+    background         : url(../img/cross/cross-ui-ux_white.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-color   : #0abf53;
+    background-size    : 50px 50px
+}
+
+.crossblockicon6 {
+    background         : url(../img/cross/app-port.png) no-repeat;
+    right              : -35px;
+    background-position: center;
+    background-color   : #fff;
+    background-size    : 50px 50px
+}
+
+.crossblockicon6:hover {
+    background         : url(../img/cross/app-port_white.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-color   : #0abf53;
+    background-size    : 50px 50px
+}
+
+.crossblockborderleft h4,
+.crossblockborderright h4 {
+    font-size  : 22px;
+    font-weight: 600
+}
+
+@media(min-width:320px) and (max-width:480px) {
+    .range-padding {
+        padding-left : 45px;
+        padding-right: 0
+    }
+
+    .range_padding1,
+    .range_padding2 {
+        padding: 0 15px
+    }
+
+    .range_box {
+        height: 100%
+    }
+
+    .range_img_pos1,
+    .range_img_pos2 {
+        left     : -7%;
+        transform: translate(7%, -50%)
+    }
+
+    .development_process {
+        height: 100%;
+        margin: 15px 0
+    }
+
+    .stack_bg {
+        width: 100%
+    }
+
+    .resmart70 {
+        margin-top: 70px
+    }
+
+    .fonth1 {
+        font-size: 47px
+    }
+
+    .content_img {
+        margin-top : 10px;
+        margin-left: 3px
+    }
+
+    .android_header_btn {
+        width    : 100%;
+        margin   : 10px 0;
+        font-size: 16px !important
+    }
+
+    .recognition_img img {
+        width: 100%
+    }
+
+    .marr45 {
+        margin-right: 0
+    }
+
+    .block-text-box h3 {
+        margin-top: 0
+    }
+
+    .table_div {
+        overflow-x: auto
+    }
+
+    table {
+        width: auto
+    }
+
+    .dashed_border {
+        height: 100% !important
+    }
+
+    #slick-carousel1 .slide-content img {
+        padding: 20px
+    }
+
+    #slick-carousel2 .slide-content img {
+        padding: 30px
+    }
+
+    .technology_house .dashed {
+        margin-top: 15px;
+        width     : 26%
+    }
+
+    .technology_house .fa {
+        transform: translate(0%, 39%)
+    }
+
+    .res-d-block {
+        display: block
+    }
+
+    .padl45 {
+        padding-left: 0
+    }
+
+    .res_ipad_ul_li li {
+        display: inline-table
+    }
+
+    .margin_audience {
+        margin        : 20px 0 !important;
+        text-align    : center;
+        padding-bottom: 30px
+    }
+
+    .mediaboxshadow {
+        height: 100%
+    }
+
+    .lms_icons {
+        margin-left: 0
+    }
+
+    .mediaimg {
+        margin-left: 0
+    }
+}
+
+@media(min-width:481px) and (max-width:767px) {
+    .marr45 {
+        margin-right: 0
+    }
+
+    .range_box {
+        height: 100%
+    }
+
+    .range-padding {
+        padding-left : 50px;
+        padding-right: 30px
+    }
+
+    .range_padding1,
+    .range_padding2 {
+        padding: 0
+    }
+
+    .range_img_pos1,
+    .range_img_pos2 {
+        left     : -7%;
+        transform: translate(7%, -50%)
+    }
+
+    .resmart70 {
+        margin-top: 70px
+    }
+
+    .table_div {
+        overflow-x: auto
+    }
+
+    table {
+        width: auto
+    }
+
+    .dashed_border {
+        height: 100% !important
+    }
+
+    #slick-carousel1 .slide-content img {
+        padding: 20px
+    }
+
+    #slick-carousel2 .slide-content img {
+        padding: 20px
+    }
+
+    .technology_house .dashed {
+        margin-top: 15px;
+        width     : 26%
+    }
+
+    .technology_house .fa {
+        transform: translate(0%, 39%)
+    }
+
+    .android_header_btn {
+        width    : 100%;
+        margin   : 10px 0;
+        font-size: 16px !important
+    }
+
+    .res-d-block {
+        display: block
+    }
+
+    .padl45 {
+        padding-left: 0
+    }
+
+    .res_ipad_ul_li li {
+        display: inline-table
+    }
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .mediaboxshadow {
+        width  : 100%;
+        display: flex
+    }
+
+    .social-media-services .categoryimg {
+        width: 23%
+    }
+
+    .categorycontent {
+        padding: 30px
+    }
+
+    .ppc-services-business .categorybox {
+        height: auto
+    }
+}
+
+.shubham {
+    position: relative
+}

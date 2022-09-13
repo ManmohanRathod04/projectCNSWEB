@@ -1,0 +1,433 @@
+@extends('main.header_footer')
+@section('content')
+<?php
+$web_data = App\Http\Controllers\WebsitesettingController::show();
+foreach($web_data as $key =>$val){
+$logo = $val->black_logo;
+ $web_title = $val->website_title;
+ $website_description = $val->website_description;
+
+}
+?>
+<div class="welcome-area welcome-area--l8" style=" border: 0px solid red;">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <!-- Welcome content Area -->
+          <div class="col-xxl-12 col-lg-10 col-md-7 col-xs-12 ">
+            <div class="welcome-content welcome-content--l8" style=" border: 0px solid red;">
+
+              <h1> {{ $web_title ??''}}</h1>
+             
+                {!! $website_description ??'' !!}
+                
+              <!--<p>Unique and innovative way to promote your Business with with Marketing solution under oneroof <br class="company-brake"> Satisfied Client is key to Success.</p>-->
+            </div>
+          </div>
+          <!--/ .Welcome Content Area -->
+
+        </div>
+
+
+
+        <br><br><br>
+        <!-- Your Life's Work -->
+        <!-- Feature-App Area -->
+        <div class="container feature-main">
+          <div class="row Feature-Heading" style="border: 0px solid green;">
+            <h5>Our Services</h5>
+          </div>
+          <div class="row" style="border: px solid blue; background: linear-gradient(to left,#ecf6ff 0%,#fff 100%);">
+
+
+            <div class="col-lg-7 fourth">
+              <div class="row third-row">
+
+                <div class="col-md-6 col-sm-6">
+                  <div class=" boxes">
+
+                    <!-- <img src="image/favicon.png" alt=""> -->
+                    <i class="fas fa-house-user" style="color: #f85a40;"> </i>
+
+                    <h4 class="people-heading">
+                      <!-- <i class="fas fa-house-user"> </i>-->
+
+                      Enterprise Solution
+                    </h4>
+                    <p class="feature-App-2-para">We deliver your serivces with 100% accuracy & professional way </p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible;"> <a href="#"> Learn More
+                      </a></span>
+
+                  </div>
+                  <div class=" boxes">
+
+                    <!-- <img src="image/favicon.png" alt=""> -->
+                    <i class="fas fa-database" style="color: #5068a9;"></i>
+
+                    <h4 class="people-heading">
+                      Whois Data</h4>
+                    <p class="feature-App-2-para">
+                      Smarter way to Notify their clients Over 4 Millions domains are booked every month </p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible;"> <a href="whois" target="_blank"> Learn More
+                      </a></span>
+
+                  </div>
+
+
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                  <div class=" boxes">
+                    <!-- <img src="image/favicon.png" alt=""> -->
+                    <i class="fas fa-user-graduate" style="color: #1c79c0;"></i>
+
+                    <h4 class="people-heading">
+                      Digital Marketing Course</h4>
+                    <p class="feature-App-2-para">Learn Advance Digital Marketing Class by Online / Offline & Recorded
+                      Lectures </p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible;"> <a href="digital-marketing"  > Learn More
+                      </a></span>
+
+                  </div>
+                  <div class=" boxes">
+                    <!-- <img src="image/favicon.png" alt=""> -->
+                    <i class="far fa-images" style="color: #17b978;"></i>
+
+                    <h4 class="people-heading">
+                      Digital Post Creator </h4>
+                    <p class="feature-App-2-para">Get Social Media Post Designed for your brand name easily in Just Rs
+                      5/-</p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible;"> <a href="digital" target="_blank"> Learn More
+                      </a></span>
+
+                  </div>
+
+                </div>
+
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-5" style="border: 0px solid red; height: 55vh;">
+              <div class="row">
+
+                <div class="col-md-12 CRM-Platform-2 CRM-platform-7"
+                  style="border:0px solid blue; padding: 60px 125px;">
+
+                  <h3>Complete Business Solution Provider</h3>
+                  <p>End-to-end, fully customizable Business solution for growing businesses and enterprises.</p>
+
+                  <span class="learn-more" style="opacity: 1; visibility: visible;"> <a href="#"> Learn More</a></span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- <br> <br> -->
+
+        <div class="container feature-main">
+          <div class="row Feature-Heading" style="border: 0px solid green;">
+            <h5>Our Services</h5>
+          </div>
+          <div class="row Feature-Heading-row"
+            style="border: 0px solid blue; background: linear-gradient(to right,#ffeded 0%,#fff 100%);">
+            <div class="col-lg-5" style="border: 0px solid red; height: 55vh;">
+              <div class="row">
+
+                <div class="col-md-12 CRM-Platform-2" style="border:0px solid blue;">
+
+                  <h3>Complete IT Product</h3>
+                  <p>End-to-end, fully customizable IT solution for growing businesses and enterprises.</p>
+
+                  <span class="learn-more" style="opacity: 1; visibility: visible;"> <a href="#"> Learn More</a></span>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-7 fourth">
+              <div class="row third-row">
+
+                <div class="col-md-6 col-sm-6">
+                  <div class=" boxes">
+
+                    <!-- <img src="image/favicon.png" alt=""> -->
+                    <i class="fas fa-house-user" style="color: #1c79c0;"></i>
+
+                    <h4 class="people-heading">
+                      Marketing Solution</h4>
+                    <p class="feature-App-2-para">We Provide you combined Marketing solution in lowest price ever given
+                      by any other company </p>
+                    <span class="learn-more-2"
+                      style="opacity: 1; visibility: visible;  position: relative; top: -22px;"> <a href="newmarketing" target="_blank"> Learn More
+                      </a></span>
+
+                  </div>
+                  <div class=" boxes">
+
+                    <!-- <img src="image/favicon.png" alt=""> -->
+                    <i class="fas fa-database" style="color: #17b978;"></i>
+
+                    <h4 class="people-heading">
+                      Social Fomo</h4>
+                    <p class="feature-App-2-para">
+                      Create Urgency or Missed Oppourtunity notificaton for your customer on your website </p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible; position: relative; top: -22px;">
+                      <a href="https://oursocialproof.com/" target="_blank"> Learn More </a></span>
+
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                  <div class=" boxes">
+                    <!-- <img src="image/favicon.png" alt=""> -->
+                    <i class="fas fa-user-graduate" style="color: #f85a40;"></i>
+
+                    <h4 class="people-heading">
+                      Digital Visiting Card</h4>
+                    <p class="feature-App-2-para">Create Digital Visiting card / Share to anyone easily over WhatsApp or
+                      Email on Single Click! </p>
+                    <span class="learn-more-2"
+                      style="opacity: 1; visibility: visible;  position: relative; top: -22px;"> <a href="dvc"target="_blank"> Learn More
+                      </a></span>
+
+                  </div>
+                  <div class=" boxes">
+                    <!-- <img src="image/favicon.png" alt=""> -->
+                    <i class="far fa-images" style="color: #5068a9;"></i>
+
+                    <h4 class="people-heading">
+                      Text To Speech </h4>
+                    <p class="feature-App-2-para">Convert Your Text to Speech in multiple Accent in just one click in
+                      free of cost.</p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible;"> <a href="https://speechmatter.com/" target="_blank"> Learn More
+                      </a></span>
+
+                  </div>
+
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature-App Area -->
+
+      </div>
+    </div>
+
+    <!-- Your Life's Work -->
+
+
+        <!-- Feature-App Area -->
+        <!-- <div class="container feature-main">
+          <div class="row Feature-Heading" style="border: 0px solid green;">
+            <h5>Our Services</h5>
+          </div>
+          <div class="row" style="border: px solid blue; background: linear-gradient(to left,#ecf6ff 0%,#fff 100%);">
+
+
+            <div class="col-lg-7 fourth">
+              <div class="row third-row">
+
+                <div class="col-md-6 col-sm-6">
+                  <div class=" boxes">
+
+             
+                    <i class="fas fa-house-user" style="color: #f85a40;"> </i>
+
+                    <h4 class="people-heading">
+               
+
+                      Social Connect
+                    </h4>
+                    <p class="feature-App-2-para">You can connect all social media account at single platform </p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible;"> <a href="#" target="_blank"> Learn More
+                      </a></span>
+
+                  </div>
+                  <div class=" boxes">
+
+                
+                    <i class="fas fa-database" style="color: #5068a9;"></i>
+
+                    <h4 class="people-heading">
+                      Whois Data</h4>
+                    <p class="feature-App-2-para">
+                      Smarter way to Notify their clients Over 4 Millions domains are booked every month </p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible;"> <a href="/whois" target="_blank"> Learn More
+                      </a></span>
+
+                  </div>
+
+
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                  <div class=" boxes">
+        
+                    <i class="fas fa-user-graduate" style="color: #1c79c0;"></i>
+
+                    <h4 class="people-heading">
+                      Digital Marketing Course</h4>
+                    <p class="feature-App-2-para">Learn Advance Digital Marketing Class by Online / Offline & Recorded
+                      Lectures </p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible;"> <a href="#"  > Learn More
+                      </a></span>
+
+                  </div>
+                  <div class=" boxes">
+                 
+                    <i class="far fa-images" style="color: #17b978;"></i>
+
+                    <h4 class="people-heading">
+                      Digital Post Creator </h4>
+                    <p class="feature-App-2-para">Get Social Media Post Designed for your brand name easily in Just Rs
+                      5/-</p>
+                    <span class="learn-more-2" style="opacity: 1; visibility: visible;"> <a href="/digitalpost" target="_blank"> Learn More
+                      </a></span>
+
+                  </div>
+
+                </div>
+
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-5" style="border: 0px solid red; height: 55vh;">
+              <div class="row">
+
+                <div class="col-md-12 CRM-Platform-2 CRM-platform-7"
+                  style="border:0px solid blue; padding: 60px 125px;">
+
+                  <h3>Complete Business Solution Provider</h3>
+                  <p>End-to-end, fully customizable Business solution for growing businesses and enterprises.</p>
+
+                  <span class="learn-more" style="opacity: 1; visibility: visible;"> <a href="#"> Learn More</a></span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div> -->
+
+
+
+    <!-- Development -->
+
+    <section class="bg-grey">
+      <div class="w-100 development">
+        <div class="container ">
+          <div class="main-heading ">
+            <h2 class="heading-text"> DEVELOPING APPLICATIONS | CURATING EXPERIENCES</h2>
+            <p class="font-formate text-color">
+              Keeping insight a strong vision, we aim to develop engaging mobile application and web solutions that can
+              increase engagement and result in high ROI with maximum conversions
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-xs-6 tringle-line">
+              <div class="main1-box clearfix">
+                <div class="exp-img">
+                  <img src="{{asset('cnswebdata/image/development_experience.png')}}" alt="CNS" class="lazyload">
+                </div>
+                <div class="text-year">
+                  <h3>12+ YEARS</h3>
+                  <p class="font-formate">Development Experience</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6">
+              <div class="main1-box clearfix">
+                <div class="exp-img">
+                  <img src="{{asset('cnswebdata/image/talented_squadz.png')}}" alt="CNS" class="lazyload">
+                </div>
+                <div class="text-year">
+                  <h3>150+</h3>
+                  <p class="font-formate">Talented Squad</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6">
+              <div class="main1-box clearfix">
+                <div class="exp-img">
+                  <img src="{{asset('cnswebdata/image/app_development.png')}}" alt="CNS" class="lazyload">
+                </div>
+                <div class="text-year">
+                  <h3>650+</h3>
+                  <p class="font-formate">Apps Developed</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6">
+              <div class="main1-box clearfix">
+                <div class="exp-img">
+                  <img src="{{asset('cnswebdata/image/projects.png')}}" alt="CNS" class="lazyload">
+                </div>
+                <div class="text-year">
+                  <h3>100%</h3>
+                  <p class="font-formate">Projects Delivered</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6">
+              <div class="main1-box clearfix">
+                <div class="exp-img">
+                  <img src="{{asset('cnswebdata/image/countries.png')}}" alt="CNS" class="lazyload">
+                </div>
+                <div class="text-year">
+                  <h3>30+</h3>
+                  <p class="font-formate">Countries Served</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-6">
+              <div class="main1-box clearfix">
+                <div class="exp-img">
+                  <img src="{{asset('cnswebdata/image/clien_satisfaction.png')}}" alt="CNS" class="lazyload">
+                </div>
+                <div class="text-year">
+                  <h3>100%</h3>
+                  <p class="font-formate">Client Satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-dev">
+            <div class="tringle-lines">
+            </div>
+          </div>
+          <div class="sidebar-devRight">
+            <div class="tringle-lines">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Development -->
+
+    <!-- 8000 Business -->
+
+    <section>
+      <div class="container-fluid Business-contaner">
+        <div class="row" style="border:0px solid blue ;">
+          <div class="col-md-12 Business">
+            <p>We're Helping over 8000 Business</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  <!-- 8000 Business -->
+
+  <!-- footer -->
+  
+    @endsection

@@ -1,0 +1,869 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Sand-Brown:#d9a34d;
+    --white:#ffffff;
+    --light-black:#000;
+    --light-gray:#FAFDD6;
+    --background:#ededc8;
+    --footer-color:#282c2f;
+    --social-linksColors:#33383c;
+    --linksColor:#577ebf;
+    --darkyellow:#ffc107;
+    --heading:#867a64;
+}
+
+
+/* navbar */
+
+.navbar {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
+    color: var(--white);
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    z-index: 2;
+}
+
+
+.navbar-brand img {
+    height: 60px;
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+.navbar-toggler i {
+    color: var(--white);
+}
+
+.navbar .topHeading ul{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.topHeading ul li p{
+ font-size: 25px;
+color: var(--Sand-Brown);
+padding-top:24px ;
+font-family: 'Roboto',sans-serif;
+}
+
+.topHeading ul li .blink-one{
+    animation: blinker-one 2s linear infinite;
+ color: red;
+ font-size: 27px;
+ background-color: var(--white);
+ border-radius: 20px;
+ padding: 10px;
+ border: 3px solid var(--Sand-Brown);
+ /* height: 20px; */
+} 
+
+.download{
+    position: relative;
+    top: -10px;
+}
+
+.download a{
+    padding: 12px ;
+    border-radius: 10px;
+    background-color: var(--Sand-Brown);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.download a:hover{
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--Sand-Brown);
+    border: 2px solid var(--Sand-Brown);
+
+}
+
+  @keyframes blinker-one {
+    0% {
+      opacity: 0;
+    }
+  }
+ 
+  @keyframes blinker-two {
+    100% {
+      opacity: 0;
+    }
+  }
+
+.navbarbottom{
+    background: var(--Sand-Brown);
+   margin-top: -3px;
+}
+
+.navbarbottom .navbar-nav {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbarbottom .navbar-toggler {
+    margin-left: auto;
+}
+
+
+.navbarbottom .collapse ul {
+    width: 100%;
+}
+
+
+.navbarbottom .collapse ul li a {
+    color: #000;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    border: 0px solid red;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbarbottom .collapse ul li a:hover {
+    color: var(--white);
+}
+
+
+
+
+/* navbar */
+
+/* textslide */
+
+.textslide p{
+    /* border: 2px solid red; */
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    height: 10px;
+    /* padding: 5px; */
+    /* padding-top: 5px; */
+    
+}
+
+.black{
+    background-color: var(--light-black);
+    padding: 10px;
+    margin-left: -8px;
+
+}
+
+.sand-brown{
+    background-color: var(--Sand-Brown);
+    padding: 10px;
+    margin-left: -8px;
+
+}
+/* textslide */
+
+
+/* slider  */
+#wrapper {
+	position: relative;
+	height: 100vh;
+}
+#slider-area {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	top: -32px;
+	left: 0;
+	z-index: -1;
+}
+#slider-area::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+}
+#slider-area .owl-item div {
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.slider-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.slider-text h2 {
+	font-family: "Roboto",sans-serif;
+	font-size: 55px;
+	margin: 0;
+	color: #fff;
+    font-weight: 600;
+	text-transform: uppercase;
+}
+.slider-text h2 span {
+	color: var(--Sand-Brown);
+}
+.slider-text p {
+	font-size: 20px;
+	color: var(--light-black);
+    background-color: var(--Sand-Brown);
+    border-radius: 10px;
+}
+
+
+/* slider  */
+
+/* modal  */
+
+.modal-sm{
+    position: relative;
+    top: 30%;
+    left: -35%;
+    
+}
+
+.modal-content{
+    background-color: var(--Sand-Brown);
+    color:#000;
+    font-family: 'Roboto',sans-serif;
+
+}
+
+.modal-title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.modal-body p{
+    font-size: 15px;
+}
+/* modal  */
+
+
+
+
+
+
+
+/* modal  */
+
+.modal-bodys{
+    display: flex; 
+    background-color: #e8f07f;
+  }
+  
+  .modalimage{
+    width: 50%;
+  }
+  
+  .modalimage img{
+   width: 100%;
+   height: 100%;
+   overflow-x: hidden;
+  }
+  
+  .modal-bodys form{
+    padding: 20px;
+    /* border: 2px solid red; */
+    width: 50%;
+    border-bottom: none;
+    /* background-color: #56CCF2; */
+  
+  }
+  
+  .modal-bodys form{
+  color:#161616;
+  }
+  
+  .modal-bodys form i:hover{
+  cursor: pointer;
+  }
+  
+  .modal-bodys form .col-form-label{
+    color: #161616;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .modal-bodys form input{
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #171717;
+  }
+  
+  .mb-3{
+    margin-bottom: 0;
+  }
+  
+  .modal-footer button{
+    background-color: var(--btn-color);
+    color: var(--btn-text);
+    border: none;
+    border-radius: 50px;
+  }
+  
+  /* modal  */
+
+
+
+
+
+/* about us  */
+
+.mainabout{
+    background-color: var(--background);
+    margin-top: -31px;
+    padding-bottom: 40px;
+    padding-top: 31px;
+}
+
+.image {
+    border: 15px solid var(--white);
+    border-radius: 10px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.aboutcontent{
+    padding-top: 10px;
+}
+.mainabout .aboutcontent h3{
+   font-size: 40px;
+   font-family: 'Roboto',sans-serif;
+   color: var(--heading);
+}
+.mainabout .aboutcontent p{
+   font-size: 17px;
+   font-family: 'Roboto',sans-serif;
+   color: var(--light-black);
+   text-align: justify;
+}
+
+.mainabout .aboutcontent .aboutpara{
+    margin-bottom: 50px;
+
+}
+
+/* about us  */
+
+/* pradhanmantri-awas-yojana */
+
+.client{
+    background-color: var(--background) ;
+    padding: 20px 0;
+}
+  /* Slider */ 
+  .slider .slick-slide {
+    margin: 0px 10px;
+    padding: 20px;
+    background-color: var(--heading);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 10px;
+    border-radius: 3px;
+  } 
+  .slider .slick-slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+
+    
+  }
+
+
+/* pradhanmantri-awas-yojana */
+
+
+/* video  */
+
+ .videostri{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    padding: 20px 0;
+    background-color: var(--background);
+    padding: 70px 0;
+}
+
+video {
+    --video-width: 426;
+    --video-height: 240;
+    aspect-ratio: var(--video-width) / var(--video-height);
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+
+/* video  */
+
+/* articaldetails */
+
+#articaldetails{
+    background-color: #d0d097;
+    padding: 30px 0;
+}
+
+.artab{
+    margin-bottom: 20px;
+}
+
+.artab img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 3px;
+}
+
+.ABROGATION{
+    background-color: #3d3e3f;
+    border-radius: 3px;
+    height: 100%;
+    padding: 20px;
+    transition: all .6s ease-in;
+}
+
+.abrogation-Heading h4{
+    font-family: 'GothamMed' Helvetica,sans-serif;
+    color: #deaf58;
+}
+
+.abrogationlist{
+    /* border: 2px solid red; */
+    padding: 0 20px;
+}
+
+.abrogationlist ul{
+    padding-left: 0;
+}
+
+.abrogationlist ul li{
+    font-family: 'GothamMed' Helvetica,sans-serif;
+
+    font-size: 13.5px;
+    text-align: justify;
+    line-height: 25px;
+    color: var(--white);
+}
+
+/* articaldetails */
+
+
+/* plotsInformation */
+
+.projects{
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(rgba(255, 0, 0, 0.45),  rgba(255, 0, 0, 0.45)), url(../images/vshanodevi.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+.headings h2{
+    /* color: var(--heading); */
+    color: var(--background);
+    font-family: 'Roboto'sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+.mainplotscontent{
+    background: #a39274; 
+
+    padding: 20px;
+    margin-bottom: 20px;
+    /* background-color: #999; */
+    border-radius: 3px;
+}
+
+.Plotsimage img{
+    width: 20rem;
+    height: 80%;
+    border-radius: 3px;
+}
+.Plotsimages{
+    width: 50rem;
+    height: 39vh;
+}
+.Plotsimages a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.plotshead h5{
+    font-size: 15px;
+    color: var(--white);
+    font-family: 'Rubik' Helvetica,sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.plotshead span{
+    color: var(--background);
+}
+.plotarea{
+    padding-left:10px ;
+}
+.plotarea h5{
+    font-size: 14px;
+    font-family: 'Rubik','Helvetica',sans-serif;
+    font-weight: 600;
+    color: var(--social-linksColors);
+
+}
+.plotarea p{
+    font-size: 12.5px;
+    color: var(--light-black);
+    font-family: 'Rubik','Helvetica',sans-serif;
+
+
+}
+
+.plotspara p{
+    padding-left:10px ;
+    font-size: 13.5px;
+    color: var(--light-black);
+    font-family: 'Rubik','Helvetica',sans-serif;
+    text-align: justify;
+
+}
+
+
+
+.card-body {
+    margin-top: -40px;
+}
+/* plotsInformation */
+
+
+/* gallery  */
+
+#Gallery{
+    background-color: var(--background);
+}
+
+.heading h2{
+    color: var(--light-black);
+    text-align: center;
+}
+
+.projectsimage a img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 3px;
+    /* border: 4px solid var(--Sand-Brown); */
+
+}
+
+.projectsimage a img:hover{
+    opacity: .6;
+
+}
+
+/* gallery  */
+
+/* contact us  */
+
+.contact-us{
+    background-color: var(--footer-color);
+    padding: 30px 0;
+}
+
+ .icon i{
+    color: var(--light-gray);
+    background-color: var(--social-linksColors);
+    width:  35px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 8px;
+    border-radius: 2px;
+}
+.contact p{
+    color: var(--light-gray);
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+}
+
+.email p{
+    color: var(--linksColor);
+    font-weight: 600;
+}
+
+.contact .heading h3{
+    color: var(--light-gray);
+    font-family: 'Roboto',sans-serif;
+}
+
+.social-links i{
+    color: var(--light-gray);
+    background-color: var(--social-linksColors);
+    width:  35px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 8px;
+    border-radius: 2px;
+    transition: all .5s ease-in-out;
+}
+
+.social-links i:hover{
+    cursor: pointer;
+    color: var(--social-linksColors);
+    background-color: var(--light-gray);
+}
+/* contact us  */
+
+/* footer */
+
+.footer{
+    background-color: var(--social-linksColors);
+}
+.ftr p{
+    text-align: center;
+    color: var(--light-gray);
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    padding-top: 14px;
+}
+
+/* footer */
+
+/* whatsapp  */
+
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:70px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+		transition: .5s all ease-out;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+
+.whatsapp_float:hover{
+    color: #25d366;
+    background-color: var(--light-gray);
+}
+
+.call_button {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:155px;
+	right:40px;
+	background-color:var(--darkyellow);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+	transition: .5s all ease-out;
+}
+
+.call_button:hover{
+    color: var(--Sand-Brown);
+    background-color: var(--white);
+}
+
+.call-icon {
+	margin-top:16px;
+	
+}
+
+/* whatsapp  */
+
+/* media query  */
+
+@media only screen and (max-width:1200px){
+
+    .mainplotscontent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Plotsimage img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Plotsimages{
+        width: auto;
+    }
+
+}
+
+@media only screen and (max-width:991px){
+.contact{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.details{
+    margin-bottom: 20px;
+}
+
+.projectsimage{
+    margin-bottom: 20px;
+}
+
+.trikutavideo{
+    text-align: center;
+}
+
+.mainplotscontent{
+    display: flex;
+    flex-direction: row;
+}
+
+.Plotsimage img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Plotsimages{
+    width: 100%;
+}
+
+.porjectbox3{
+    position: relative;
+    /* top: 20rem; */
+}
+
+
+/* modal  */
+
+.modal-sm{
+    position: relative;
+    left: -25%;
+}
+
+/* modal  */
+
+.switchbox{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+  }
+
+  @media only screen and (max-width:767px){
+    	/* whatsapp button */
+	.whatsapp-icon {
+		margin-top:10px;
+		}
+	   .whatsapp_float {
+		   width: 40px;
+		   height: 40px;
+		   bottom: 90px;
+		   right: 50px;
+		   font-size: 22px;
+	   }
+       .call-icon {
+		margin-top:10px;
+		}
+	   .call_button {
+		   width: 40px;
+		   height: 40px;
+		   bottom: 145px;
+		   right: 50px;
+		   font-size: 22px;
+	   }
+	   /* whatsapp button */
+
+       .projectsimage{
+        margin-bottom: 20px;
+    }
+
+    .mainplotscontent{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Plotsimage img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .porjectbox3{
+        position: relative;
+        /* top: 20rem; */
+    }
+
+ 
+
+    /* modal  */
+
+.modal-sm{
+    position: relative;
+    left: auto;
+}
+
+/* modal  */
+
+  }
+@media only screen and (max-width:476px){
+.para{
+    padding-left: 20px;
+}
+
+.slider-text{
+    width: 90%;
+}
+
+.projectsimage{
+    margin-bottom: 20px;
+}
+
+.porjectbox3{
+    position: relative;
+    top: 0;
+}
+.modalimage{
+    display: none;
+}
+
+.modal-bodys form{
+    width: auto;
+}
+  }
+
+/* media query  */
+
+

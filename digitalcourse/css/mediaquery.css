@@ -1,0 +1,506 @@
+
+    @media screen and (max-width:1725px){
+        .training{
+            margin-top: 10rem;
+        }
+        
+
+        .process {
+            z-index: 2;
+        }
+
+    }
+
+    @media screen and (max-width:1625px){
+        .training{
+            margin-top: 10rem;
+        }
+        
+
+        .process {
+            z-index: 2;
+        }
+
+    }
+
+    @media screen and (max-width:1525px) {
+        .training{
+            margin-top: 10rem;
+        }
+        
+
+        .process {
+            z-index: 2;
+        }
+
+
+    }
+
+    @media screen and (max-width:1425px) {
+        .training{
+            margin-top: 10rem;
+        }
+        
+        .process {
+            z-index: 2;
+        }
+        .homepara{
+            height: auto;
+            width: auto;
+        }
+        
+    }
+
+    @media screen and (max-width:1399px) {
+        .training{
+            margin-top: 10rem;
+        }
+        
+        .process {
+            z-index: 2;
+        }
+
+       
+
+        .homepara{
+            height: auto;
+            padding-top: 3px;
+
+        }
+    }
+
+    @media screen and (max-width:1291px) {
+
+        #particles-js{
+           padding-bottom: 9rem;
+        }
+
+        .homepagebox2 img{
+            height: 100%;
+        }
+        .homepara{
+            height: auto;
+            padding-top: 20px;
+        }
+
+        .thirdimage img{
+            width: 500px ;
+            height:500px ;
+        }
+
+        .heading h3{
+            width: 31%;
+        }
+    }
+
+    @media screen and (max-width:1199px) {
+        .training{
+            margin-top: 10rem;
+        }
+        
+        .process {
+            z-index: 2;
+        }
+
+        .maincard{
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        }
+
+        .progressicons{
+          border: none;
+        }
+
+        .mobsecondshift{
+            position: relative;
+            left: 24px;
+           
+        }
+
+        
+        #particles-js{
+            padding-bottom: 12rem;
+         }
+ 
+         .homepara{
+             height: auto;
+             padding-top: 20px;
+         }
+
+         .homepara p{
+             text-align: justify;
+         }
+
+         .heading h3{
+            width: 37%;
+        }
+
+         .thirdimage img{
+            width: 430px ;
+            height:430px ;
+        }
+
+    }
+
+
+    @media screen and (max-width:1107px){
+        #particles-js{
+            padding-bottom: 16rem;
+         }
+ 
+         .homepara{
+             height: auto;
+             padding-top: 20px;
+         }
+
+         .homepara p{
+             text-align: justify;
+         }
+
+         .heading h3{
+            width: 40%;
+        }
+
+        .entreprenurtextimage img{
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:991px) {
+        .training{
+            margin-top: 10rem;
+        }
+        
+        .process {
+            z-index       : 2;
+            display       : flex;
+            flex-direction: column;
+        }
+
+        .progresscard .srno, .progresscard2 .srno, .entreprenurs img{
+            display: none;
+        }
+
+        .progressicons img{
+            padding: 0;
+            padding-left: 40px;
+            text-align: center;
+        }
+
+        .progresscard p,.progresscard2 p{
+            font-size: 17px;
+            text-align: center;
+        }
+
+        .traingprsfirst{
+            display: flex;
+            justify-content: center;
+        }
+
+        
+        #mobfive{
+          position: relative;
+          top: 0;
+        }
+
+        .mobsecondshift{
+            position: relative;
+            left: 0;
+           
+        }
+
+        #particles-js{
+            padding-bottom: 24rem;
+         }
+ 
+         .homepara{
+             height: auto;
+             padding-top: 20px;
+         }
+
+         .homepara p{
+             text-align: justify;
+             font-size: 23px;
+         }
+
+         .hrrow{
+             display: none;
+         }
+
+         .heading h3{
+            width: 25%;
+        }
+
+         .thirdimage{
+            text-align: center;
+            padding-top: 14%;
+        }
+
+         .thirdimage img{
+            width: 430px ;
+            height:430px ;
+        }
+    }
+
+    @media screen and (max-width:864px){
+        #particles-js{
+            padding-bottom: 30rem;
+            height: auto;
+         }
+    }
+    @media screen and (max-width:767px) {
+        .support .address{
+            display: flex;
+            justify-content: flex-start;
+        }
+     
+        .training2 {
+            display        : flex;
+            justify-content: center;
+            max-width      : 100rem;
+        }
+
+        .training2 .process {
+            z-index        : 2;
+            display        : flex;
+            width: 80%;
+            flex-direction: row;
+            margin: 10px;
+        }
+
+        .increasewidth{
+            width: 100%;
+        }
+
+        #particles-js{
+            padding-bottom: 48rem;
+            height: auto;
+         }
+ 
+         .homepara{
+             height: auto;
+             padding-top: 20px;
+         }
+
+         .homepara p{
+             text-align: justify;
+             font-size: 20px;
+         }
+
+         .hrrow{
+             display: none;
+         }
+
+         .heading h3{
+            width: 35%;
+        }
+
+        .homepagebox2{
+            padding-top: 20px;
+          }
+
+          .whatlearn{
+              margin-bottom: 20px;
+          }
+
+    }
+
+    @media screen and (max-width:682px){
+        #particles-js{
+            padding-bottom: 55rem;
+            height: auto;
+         }
+    }
+
+    @media screen and (max-width:625px){
+        #particles-js{
+            padding-bottom: 58rem;
+            height: auto;
+         }
+    }
+
+    @media screen and (max-width:575px) {
+        .training{
+            margin-top: 10rem;
+        }
+        
+        .training2 {
+            display        : flex;
+            justify-content: center;
+            max-width      : 100rem;
+        }
+
+        /* #particles-js{
+            padding-bottom: 62rem;
+            height: auto;
+         } */
+ 
+         .homepara{
+             height: auto;
+             padding-top: 20px;
+         }
+
+         .homepara p{
+             text-align: justify;
+             font-size: 20px;
+         }
+
+         .hrrow{
+             display: none;
+         }
+
+         .heading h3{
+            width: 40%;
+        }
+
+         .aboutContent{
+             padding: 100px 50px;
+         }
+
+         .thirdimage{
+            text-align: center;
+            padding-top: 23%;
+            
+        }
+
+         .thirdimage img{
+            width: 330px ;
+            height:330px ;
+        }
+    }
+
+    @media screen and (max-width:519px) {
+    .training{
+        margin-top: 10rem;
+    }
+
+        .training2 .process {
+            z-index        : 2;
+            /* margin: 0px 50px; */
+        }
+
+        .heading h3{
+            width: 33%;
+        }
+        
+    }
+
+
+
+    @media screen and (max-width:484px){
+  
+         .homepara{
+             height: auto;
+             padding-top: 20px;
+         }
+
+         .homepara p{
+             text-align: justify;
+             font-size: 20px;
+         }
+
+         .hrrow{
+             display: none;
+         }
+        /* #particles-js{
+            padding-bottom: 68rem;
+         } */
+ 
+         .homepara{
+             height: auto;
+             padding-top: 20px;
+         }
+
+         .homepara p{
+             text-align: justify;
+             font-size: 20px;
+         }
+
+         .hrrow{
+             display: none;
+         }
+
+         .heading h3{
+            width: 50%;
+        }
+         .aboutContent{
+            padding: 100px 50px;
+        }
+
+        .thirdimage{
+           text-align: center;
+           padding-top: 23%;
+           
+       }
+
+        .thirdimage img{
+           width: 240px ;
+           height:240px ;
+       }
+    }
+
+    @media screen and (max-width:455px){
+        #particles-js{
+            padding-bottom: 60rem;
+         }
+
+       
+    }
+
+    @media screen and (max-width:400px){
+        #particles-js{
+            padding-bottom: 65rem;
+         }
+
+         .heading h3{
+            width: 62%;
+        }
+    }
+    @media screen and (max-width:361px){
+        #particles-js{
+            padding-bottom: 73rem;
+         }
+ 
+         .homepara{
+             height: auto;
+             padding-top: 20px;
+         }
+
+         .homepara p{
+             text-align: justify;
+             font-size: 20px;
+         }
+
+         .hrrow{
+             display: none;
+         }
+
+         .heading h3{
+             width: 60%;
+         }
+         .aboutContent{
+            padding: 100px 20px;
+        }
+
+        .thirdimage{
+           text-align: center;
+           padding-top: 40%;
+           
+       }
+
+        .thirdimage img{
+           width: 200px ;
+           height:200px ;
+       }
+    }
+
+    @media screen and (max-width:348px){
+        /* #particles-js{
+            padding-bottom: 88rem;
+         } */
+
+         .heading h3{
+            width: 70%;
+        }
+    }

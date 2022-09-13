@@ -1,0 +1,299 @@
+
+
+/* 2. #f6324a, #d0002c
+3. #fd0054,#a80038
+4. #222831, #141414
+5. #9b59b6, #8e44ad
+6. #e9290f ,#ff6107 */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --Shamrock:#38d39f;
+    --TropicalRainForest:#057855;
+    --rgba:rgba(5, 120, 85,.8);
+    --anotherrgba:rgba(56, 211, 159,.3);
+
+    --footerA:#43a680;
+    --footerB:#1a936f;
+    --main-color:#FAA500 ;
+    --second-color:#001f3f;
+    --third-color:#FFFFFF;
+    --fourth-color:#000428;
+    --black-color:#000000;
+    --purple-color: #6A26Da;
+    --dark-gray:#26373FB3;
+    --another-black:#252629;
+    --text-style:'poppins',sans-serif;
+  }
+
+  /* navbar */
+  .navbar {
+    background: var(--Shamrock);
+}
+.navbarbottom{
+    background: var(--TropicalRainForest);
+}
+
+.navbarbottom .navbar-toggler2{
+    border: none;
+}
+.navbarbottom .navbar-toggler2 i{
+    color: var(--TropicalRainForest);
+}
+.collapse ul li a:hover {
+    color: yellow;
+}
+
+.navbarbottom .collapse ul li a:hover {
+    color: yellow;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--Shamrock); 
+}
+.navbarbottom .collapse .dropdown-menu li a:hover{
+    background-color: var(--TropicalRainForest);
+    color: #fff;
+}
+  /* navbar */
+
+
+/* enterprice themeforest color  */
+
+.btn-style-three, .about-section-three__image::before, .about-section-three__content .progress-box .bar-inner, .scroll-to-top, .page-banner{
+  background-color: var(--TropicalRainForest);
+}
+
+.call-to-section-two.alternate{
+    background-color: var(--Shamrock);
+}
+
+.testi-block-three__single:hover .testi-block-three__top {
+  background-color: var(--TropicalRainForest);
+
+}
+
+.service-block-three__single:hover{
+  background-color: var(--TropicalRainForest);
+
+}
+.about-section-three__list li >i, .sec-title-two p, .testi-block-three__single span, .service-details .text-content ul li i{
+    color: var(--TropicalRainForest);
+}
+
+.about-section-three__list li >i, .sec-title-two p{
+    color: #fff;
+}
+
+.live-section-two, .call-to-section-three{
+    background-color: var(--TropicalRainForest);
+}
+
+.page-banner .bread-crumb li a:hover, .page-banner .bread-crumb li.active{
+    color: yellow;
+}
+
+/* enterprice themeforest color  */
+
+
+/* digitalpage */
+
+.main{
+    background: var(--rgba);
+}
+
+ .benifitsbox3 i, .pricingbox1 h5, .ourservicebox1 .colorchange ,.ourservicebox1 .colorchange, .ourservicebox1 .colorchange{
+color: var(--TropicalRainForest);
+}
+
+ .cardbody button a,.page1box1 button a{
+    background-color: yellow;
+    /* color: var(--third-color); */
+}
+
+.pricingbox2 .card .cardhead{
+    background-color: var(--Shamrock);
+}
+
+.card-body .fa-quote-left{
+    color: yellow;
+}
+
+.page1box1 .colorchange{
+    color: yellow;
+
+}
+.card-body:hover{
+    background-color: var(--TropicalRainForest);
+}
+/* digitalpage */
+
+/* whoispage  */
+
+.globalcard a, .Plan-Namerow2 a ,.Milliondomains{
+    background-color: var(--TropicalRainForest);
+}
+
+.mainbox1 span{
+    color: yellow;
+}
+
+
+/* whoispage  */
+
+/* dvcpage  */
+
+.btn-app{
+    background-color: yellow;
+    color: #000;
+}
+
+.fact-inner{
+    background-image: linear-gradient(-45deg, var(--TropicalRainForest), var(--Shamrock));
+}
+
+.text-center h2{
+    color: var(--TropicalRainForest);
+}
+
+.section-title h2{
+    color: var(--TropicalRainForest);
+
+}
+
+.back-to-top{
+    background-color: var(--TropicalRainForest);
+}
+
+.feature-service:hover h4{
+    color: var(--Shamrock);
+}
+
+.back-to-top:hover{
+    background: #fff;
+    border: 2px solid var(--TropicalRainForest);
+    color: var(--TropicalRainForest);
+}
+
+.btn-blue{
+    background-color: yellow;
+    color: #000;
+}
+
+.btn-blue:hover{
+    background-color: var(--TropicalRainForest);
+    color: yellow;
+}
+/* dvcpage  */
+
+/* marketing solution  */
+
+.pr-mark-case-content .pr-mark-tab-btn .nav-tabs .nav-link:hover{
+    background-color: var(--TropicalRainForest);
+}
+
+.pr1-work-column .pr1-headline a:hover h5 {
+    color: yellow;
+  }
+
+  .pr1-business-left .pr1-img-container:hover{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(var(--TropicalRainForest)));
+    background-image: -webkit-linear-gradient(top, #ffffff, var(--TropicalRainForest));
+    background-image: -o-linear-gradient(top, #ffffff,   var(--TropicalRainForest));
+    background-image: linear-gradient(to bottom, #ffffff, var(--TropicalRainForest));
+    cursor: pointer;
+  }
+
+  .pr1-business-right .pr1-business-column .pr1-headline a:hover h5{
+    color: yellow;
+
+  }
+
+  .pr1-team-section {
+    background-color: var(--TropicalRainForest);
+      height: 55vh;
+    }
+
+    .pr1-team-slider .slick-dots li.slick-active button{
+        background-color: yellow;
+    }
+
+    .pr1-pricing-tab .tab-content .pr1-tab-column .pr1-tab-features li::before{
+        color: var(--TropicalRainForest);
+    }
+
+    .pr1-pricing-tab .nav li a.active{
+        background-color: yellow;
+    }
+
+    .pr1-pricing-tab .nav{
+        border: 2px solid var(--TropicalRainForest);
+    }
+
+    .pr1-pricing-tab .nav li a{
+        color: var(--TropicalRainForest);
+    }
+
+    .pr1-pricing-tab .tab-content .pr1-tab-column .pr1-tab-btn a{
+        border: 2px solid yellow;
+        color: var(--TropicalRainForest);
+    }
+
+    .pr1-pricing-tab .tab-content .pr1-tab-column .pr1-tab-btn a:hover {
+        background-color: var(--TropicalRainForest);
+        border: 2px solid var(--TropicalRainForest);
+        /* border: none; */
+        color: yellow;
+      }
+
+      .pr1-clients-slider .pr1-client-single .pr1-pera-txt{
+          border: 2px solid yellow;
+      }
+      .pr1-clients-slider .pr1-client-single span.quote-icon{
+        border: 2px solid yellow;
+        color: var(--TropicalRainForest);
+
+      }
+
+      .pr1-clients-slider-wrapper .slick-dots li.slick-active button{
+          background-color: yellow;
+      }
+
+      .pr1-clients-slider-wrapper .slick-dots li button{
+          background-color: var(--TropicalRainForest);
+      }
+
+      .pr1-scroll-top{
+          background-color: var(--TropicalRainForest);
+      }
+/* marketing solution  */
+
+/* signup */
+
+.btn{
+    background-color: var(--Shamrock);
+}
+
+.btn:hover{
+    background-color: var(--TropicalRainForest);
+    color: yellow;
+}
+
+.container:before{
+    background-image: linear-gradient(-45deg, var(--TropicalRainForest) 0%, var(--Shamrock) 100%);
+}
+/* signup */
+
+
+
+
+
+
+
+
+
+

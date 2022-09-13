@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculate Loan | Capital Plus Trade</title>
+  <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+
+  <!-- css link  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- css link  -->
+
+  <!-- bootstrap link  -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- bootstrap link  -->
+
+  <!-- cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- cdn -->
+
+
+
+</head>
+
+<body>
+
+  <!-- navbar bar -->
+
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="./image/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle">Insurance</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="marineinsurance.html">Mediclaim Insurance</a></li>
+                        <li><a class="dropdown-item" href="groupinsurance.html">Group Insurance</a></li>
+                        <li><a class="dropdown-item" href="liability.html">Liabilities Insurance</a></li>
+                        <li><a class="dropdown-item" href="lifeinsurance.html">Life Insurance</a></li>
+                        <li><a class="dropdown-item" href="personalaccident.html">Personal Accidental Insurance</a></li>
+                        <li><a class="dropdown-item" href="mutualfunds.html">Mutual Fund</a></li>
+                        <li><a class="dropdown-item" href="household.html">House Hold Insurance</a></li>
+                        <li><a class="dropdown-item" href="motorinsurance.html">Motor Insurance</a></li>
+                        <li><a class="dropdown-item" href="firstandthirdpartyinsurance.html">1st & 3rd Party Insurance</a></li>
+                        <li><a class="dropdown-item" href="homeloan.html">Home Loan</a></li>
+                        <li><a class="dropdown-item" href="marineinsurance.html">Marine Insurance Services etc.</a></li>
+                       
+                    </ul>
+                </li>
+                <li class="dropdown-submenu"><a class="dropdown-item" href="#">Stock Market</a></li>
+                <li class="dropdown-submenu"><a class="dropdown-item" href="catculator.html">Loan</a></li>
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle">Property</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="property.html">Commercial</a></li>
+                      <li><a class="dropdown-item" href="property.html">DDA</a></li>
+                      <li><a class="dropdown-item" href="property.html">Land</a></li>
+                      <li><a class="dropdown-item" href="property.html">Socity</a></li>
+                      <li><a class="dropdown-item" href="property.html">Other</a></li>
+                     
+                  </ul>
+              </li>
+            </ul>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+   <!-- navbar bar -->
+   
+  <!-- calculate loan-page -->
+  <div class="container-fluid calculate">
+    <div class="row calculateLoan">
+      <div class="col-lg-12 col-md-12 ">
+        <h3>Calculator</h3>
+
+      </div>
+    </div>
+  </div>
+  <!-- calculate loan-page -->
+
+  <section class="section">
+    <div class="container cal my-5 " >
+      <div class="row" style="background-color: rgba(0,0,0,0.5); border-radius: 10px; padding: 10px 0;">
+      <div class="Calculatecontent">
+        <h1>Loan Calculator</h1>
+
+      </div>
+<form action="#" class="my-5" id="loan-form">
+      <div class="row ">
+        <div class="col-lg-1 col-md-2 col-sm-1 level-item">
+          <p class="number">1</p>
+        </div>
+        <div class="col-lg-4 col-md-8 col-sm-8 level-item">
+          <p class="text">Loan Amount</p>
+        </div>
+        <div class="col-lg-6 col-md-8 control has-icons-left">
+          <input class="input" id="amount" type="number" />
+          <span class="icon is-small is-left">
+            <i class="fa fa-rupee-sign"></i>
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 col-md-2 col-sm-1 level-item">
+          <p class="number">2</p>
+        </div>
+        <div class="col-lg-4 col-md-8 col-sm-8 level-item">
+          <p class="text">Interest Rate</p>
+        </div>
+        <div class="col-lg-6 col-md-8 control has-icons-right">
+          <input class="input" id="interest" type="number" />
+          <span class="icon is-small is-right">
+            <i class="fa fa-percentage"></i>
+
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1 col-md-2 col-sm-1 level-item">
+          <p class="number">3</p>
+        </div>
+        <div class="col-lg-4 col-md-8 col-sm-8 level-item">
+          <p class="text">Number Of Years</p>
+        </div>
+        <div class="col-lg-6 col-md-8  control has-icons-left">
+          <input class="input" id="years" type="number" />
+          <span class="icon is-small is-left">
+            <i class="fa fa-calendar"></i>
+          </span>
+        </div>
+      </div>
+      <div class="row control ">
+        <div class="col-lg-3 col-md-7">
+          <button class="button">
+            Calculate
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="section">
+    <div class="container columns is-multiline">
+    <h1 class="title ">Calculated Results</h1>
+
+<div class="row px-3">
+      <div class="col-lg-4 col-md-4 col-sm-12 column is-12-tablet is-6-desktop is-3-widescreen result">
+        <div class="notification is-primary has-text">
+          <p id="monthlyPayment" class="title">₹</p>
+          <p class="subtitle is-4">Monthly Payments</p>
+        </div>
+      </div>
+
+      <div class=" col-lg-4 col-md-4 col-sm-12 column is-12-tablet is-6-desktop is-3-widescreen result">
+        <div class="notification notification2 is-info has-text">
+          <p id="totalInterest" class="title is-1">%</p>
+          <p class="subtitle is-4">Total Interest</p>
+        </div>
+      </div>
+
+      <div class=" col-lg-4 col-md-4 col-sm-12 column is-12-tablet is-6-desktop is-3-widescreen result">
+        <div class="notification is-link has-text">
+          <p id="totalPayment" class="title is-1">₹</p>
+          <p class="subtitle is-4">Total Amount</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+<br><br>
+
+
+  <!-- footer -->
+
+  <footer class="footer">
+
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-lg-4 footer-head">
+          <h4>About US</h4>
+          <p>All Insurance Provides For Individual And Corporate Insurance Under One Roof. All Insurance Helps With
+            Designing The Best Cover As Per The Requirements, Claims Handling, Prompt And Timely Updates, Follow Ups Etc
+            To Ensure You Are Always Protected From Unforeseen Calamities In Every Aspect Of Personal / Corporate Life.
+          </p>
+        </div>
+        <div class="col-lg-4 footer-head">
+          <h4>Quick Menu</h4>
+          <div class="list">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Insurance</a></li>
+              <li><a href="#">Stock Market</a></li>
+              <li><a href="#">Loan</a></li>
+              <li><a href="#">Property</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 footer-head">
+          <h4>Contact Us</h4>
+          <p>214, 2nd Floor, Vardhman Star City Mall, Dwarka Sec-7, New Delhi-110075</p>
+          <p><span> Phone No:-</span> 9891811921, 9716810101 </p>
+          <p><span> Office No :-</span> 011-41646558 </p>
+          <p><span> Email :-</span> capitalplustrade@gmail.com </p>
+        </div>
+      </div>
+
+      <div class="row text-center" style="border-top: 1px solid gray; ">
+        <div class="col-lg-12">
+          <p>Copyright © 2022 capitalplustrade | All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer -->
+
+  <!-- boostrap link  -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+  <!-- boostrap link  -->
+
+  <script src="js/calculator.js"></script>
+</body>
+
+</html>
